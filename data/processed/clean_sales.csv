@@ -1,0 +1,751 @@
+store_id,store_name,product_category,date,unit_sales,dollar_sales,store_zip,promotion_flag,price_per_unit,day_of_week,is_weekend,sale_size
+LA002,Store_2,Household,2024-09-01,16.0,96.28,90004,True,6.02,Sunday,True,medium
+LA001,Store_1,Beverages,2024-09-01,14.0,86.63,90004,True,6.19,Sunday,True,medium
+LA004,Store_4,Produce,2024-09-15,18.0,298.26,90003,True,16.57,Sunday,True,large
+LA003,Store_3,Household,2024-09-07,7.0,25.69,90001,True,3.67,Saturday,True,small
+LA005,Store_5,Household,2024-09-15,11.0,95.3,90001,True,8.66,Sunday,True,medium
+LA009,Store_9,Household,2024-09-08,50.0,798.4,90001,True,15.97,Sunday,True,large
+LA003,Store_3,Produce,2024-09-08,35.0,235.53,90002,False,6.73,Sunday,True,large
+LA002,Store_2,Personal Care,2024-09-13,39.0,777.28,unknown,False,19.93,Friday,False,large
+LA004,Store_4,Snacks,2024-09-02,37.0,704.67,90005,True,19.05,Monday,False,large
+LA003,Store_3,Personal Care,2024-09-05,36.0,179.0,unknown,False,4.97,Thursday,False,large
+LA002,Store_2,Beverages,2024-09-11,38.0,454.88,90001,True,11.97,Wednesday,False,large
+LA004,Store_4,Snacks,2024-09-07,35.0,352.63,90001,False,10.08,Saturday,True,large
+LA005,Store_5,Produce,2024-09-14,43.0,642.05,unknown,True,14.93,Saturday,True,large
+LA009,Store_9,Household,2024-09-02,4.0,11.61,90005,False,2.9,Monday,False,small
+LA010,Store_10,Produce,2024-09-02,6.0,57.28,90002,False,9.55,Monday,False,medium
+LA005,Store_5,Snacks,2024-09-13,43.0,585.62,90004,False,13.62,Friday,False,large
+LA006,Store_6,Snacks,2024-09-10,29.0,493.21,90001,False,17.01,Tuesday,False,large
+LA009,Store_9,Beverages,2024-09-10,9.0,60.84,90002,True,6.76,Tuesday,False,medium
+LA006,Store_6,Household,2024-09-07,33.0,356.19,90001,True,10.79,Saturday,True,large
+LA002,Store_2,Snacks,2024-09-03,35.0,92.7,90003,False,2.65,Tuesday,False,medium
+LA008,Store_8,Household,2024-09-12,15.0,90.19,90003,True,6.01,Thursday,False,medium
+LA010,Store_10,Beverages,2024-09-09,7.0,89.17,90005,False,12.74,Monday,False,medium
+LA002,Store_2,Produce,2024-09-13,13.0,85.61,unknown,False,6.59,Friday,False,medium
+LA004,Store_4,Personal Care,2024-09-12,5.0,95.4,90003,False,19.08,Thursday,False,medium
+LA009,Store_9,Personal Care,2024-09-10,21.0,194.11,90004,False,9.24,Tuesday,False,large
+LA006,Store_6,Personal Care,2024-09-15,29.0,410.68,unknown,False,14.16,Sunday,True,large
+LA002,Store_2,Produce,2024-09-10,43.0,575.9,90003,False,13.39,Tuesday,False,large
+LA009,Store_9,Produce,2024-09-14,29.0,526.34,90003,False,18.15,Saturday,True,large
+LA003,Store_3,Snacks,2024-09-05,25.0,362.28,90004,True,14.49,Thursday,False,large
+LA001,Store_1,Personal Care,2024-09-07,25.0,457.18,90001,True,18.29,Saturday,True,large
+LA006,Store_6,Personal Care,2024-09-10,27.0,315.58,90004,True,11.69,Tuesday,False,large
+LA004,Store_4,Household,2024-09-15,22.0,345.45,90001,False,15.7,Sunday,True,large
+LA008,Store_8,Produce,2024-09-01,4.0,79.99,90001,False,20.0,Sunday,True,medium
+LA001,Store_1,Snacks,2024-09-08,2.0,26.37,90002,True,13.18,Sunday,True,small
+LA004,Store_4,Household,2024-09-04,44.0,563.53,90005,True,12.81,Wednesday,False,large
+LA008,Store_8,Personal Care,2024-09-15,47.0,595.23,90004,False,12.66,Sunday,True,large
+LA004,Store_4,Household,2024-09-12,22.0,154.74,90002,False,7.03,Thursday,False,large
+LA005,Store_5,Personal Care,2024-09-08,45.0,287.08,unknown,False,6.38,Sunday,True,large
+LA009,Store_9,Household,2024-09-11,45.0,457.53,90001,False,10.17,Wednesday,False,large
+LA005,Store_5,Snacks,2024-09-04,19.0,115.8,90001,True,6.09,Wednesday,False,medium
+LA008,Store_8,Snacks,2024-09-11,4.0,26.18,90005,False,6.54,Wednesday,False,small
+LA001,Store_1,Snacks,2024-09-05,37.0,706.12,90005,True,19.08,Thursday,False,large
+LA002,Store_2,Snacks,2024-09-06,12.0,143.23,90003,True,11.94,Friday,False,medium
+LA001,Store_1,Household,2024-09-08,46.0,326.09,unknown,False,7.09,Sunday,True,large
+LA001,Store_1,Household,2024-09-06,39.0,603.77,90004,False,15.48,Friday,False,large
+LA002,Store_2,Produce,2024-09-08,38.0,726.34,90005,False,19.11,Sunday,True,large
+LA007,Store_7,Household,2024-09-11,43.0,166.96,90004,True,3.88,Wednesday,False,large
+LA009,Store_9,Personal Care,2024-09-02,6.0,45.97,90001,False,7.66,Monday,False,small
+LA009,Store_9,Personal Care,2024-09-15,4.0,21.51,90001,False,5.38,Sunday,True,small
+LA004,Store_4,Produce,2024-09-09,9.0,168.28,unknown,False,18.7,Monday,False,large
+LA008,Store_8,Snacks,2024-09-04,32.0,601.21,90004,False,18.79,Wednesday,False,large
+LA004,Store_4,Produce,2024-09-15,10.0,89.05,90004,True,8.9,Sunday,True,medium
+LA002,Store_2,Beverages,2024-09-14,49.0,656.97,90001,True,13.41,Saturday,True,large
+LA003,Store_3,Beverages,2024-09-06,40.0,707.0,unknown,True,17.68,Friday,False,large
+LA005,Store_5,Household,2024-09-15,43.0,93.27,90004,False,2.17,Sunday,True,medium
+LA002,Store_2,Personal Care,2024-09-08,37.0,313.07,unknown,False,8.46,Sunday,True,large
+LA007,Store_7,Beverages,2024-09-09,37.0,650.13,90003,True,17.57,Monday,False,large
+LA001,Store_1,Household,2024-09-02,32.0,130.89,unknown,True,4.09,Monday,False,medium
+LA009,Store_9,Produce,2024-09-14,48.0,723.78,90003,False,15.08,Saturday,True,large
+LA006,Store_6,Personal Care,2024-09-02,18.0,97.5,90002,True,5.42,Monday,False,medium
+LA010,Store_10,Beverages,2024-09-01,22.0,140.45,90005,True,6.38,Sunday,True,medium
+LA006,Store_6,Snacks,2024-09-01,17.0,50.03,90003,False,2.94,Sunday,True,medium
+LA006,Store_6,Produce,2024-09-13,34.0,248.48,unknown,False,7.31,Friday,False,large
+LA002,Store_2,Personal Care,2024-09-11,21.0,293.41,90001,False,13.97,Wednesday,False,large
+LA002,Store_2,Personal Care,2024-09-03,7.0,107.82,90005,False,15.4,Tuesday,False,medium
+LA009,Store_9,Beverages,2024-09-11,27.0,225.85,90005,False,8.36,Wednesday,False,large
+LA005,Store_5,Beverages,2024-09-12,37.0,411.94,90005,True,11.13,Thursday,False,large
+LA006,Store_6,Household,2024-09-04,37.0,224.62,90005,False,6.07,Wednesday,False,large
+LA009,Store_9,Produce,2024-09-01,43.0,728.0,90003,False,16.93,Sunday,True,large
+LA006,Store_6,Snacks,2024-09-01,10.0,121.94,90001,False,12.19,Sunday,True,medium
+LA009,Store_9,Personal Care,2024-09-07,27.0,274.47,90005,True,10.17,Saturday,True,large
+LA010,Store_10,Beverages,2024-09-03,10.0,48.33,90004,True,4.83,Tuesday,False,small
+LA010,Store_10,Personal Care,2024-09-15,18.0,105.84,90005,True,5.88,Sunday,True,medium
+LA005,Store_5,Household,2024-09-10,8.0,17.11,90005,False,2.14,Tuesday,False,small
+LA010,Store_10,Produce,2024-09-14,26.0,384.05,90002,False,14.77,Saturday,True,large
+LA010,Store_10,Household,2024-09-15,6.0,59.16,90004,True,9.86,Sunday,True,medium
+LA006,Store_6,Snacks,2024-09-12,16.0,61.61,unknown,False,3.85,Thursday,False,medium
+LA002,Store_2,Personal Care,2024-09-06,30.0,467.4,90005,False,15.58,Friday,False,large
+LA002,Store_2,Beverages,2024-09-11,36.0,511.59,90005,False,14.21,Wednesday,False,large
+LA003,Store_3,Beverages,2024-09-11,38.0,529.91,90002,False,13.94,Wednesday,False,large
+LA009,Store_9,Personal Care,2024-09-03,33.0,280.93,90004,False,8.51,Tuesday,False,large
+LA004,Store_4,Snacks,2024-09-08,10.0,33.89,90005,True,3.39,Sunday,True,small
+LA008,Store_8,Household,2024-09-15,50.0,443.69,90002,False,8.87,Sunday,True,large
+LA005,Store_5,Personal Care,2024-09-02,24.0,287.56,90001,True,11.98,Monday,False,large
+LA003,Store_3,Personal Care,2024-09-09,33.0,153.53,90003,False,4.65,Monday,False,large
+LA001,Store_1,Beverages,2024-09-14,26.0,286.94,90003,True,11.04,Saturday,True,large
+LA008,Store_8,Produce,2024-09-15,1.0,18.31,unknown,True,18.31,Sunday,True,small
+LA008,Store_8,Beverages,2024-09-03,32.0,407.72,90003,True,12.74,Tuesday,False,large
+LA007,Store_7,Produce,2024-09-01,23.0,145.59,90003,False,6.33,Sunday,True,medium
+LA006,Store_6,Beverages,2024-09-05,23.0,272.05,90004,True,11.83,Thursday,False,large
+LA006,Store_6,Personal Care,2024-09-06,45.0,492.99,90005,False,10.96,Friday,False,large
+LA001,Store_1,Beverages,2024-09-05,16.0,256.21,90002,False,16.01,Thursday,False,large
+LA008,Store_8,Household,2024-09-12,29.0,456.33,90002,True,15.74,Thursday,False,large
+LA002,Store_2,Snacks,2024-09-01,32.0,362.22,90005,True,11.32,Sunday,True,large
+LA009,Store_9,Snacks,2024-09-12,50.0,596.17,90001,True,11.92,Thursday,False,large
+LA002,Store_2,Produce,2024-09-02,17.0,233.25,90005,False,13.72,Monday,False,large
+LA007,Store_7,Household,2024-09-05,33.0,399.62,90002,False,12.11,Thursday,False,large
+LA002,Store_2,Household,2024-09-02,25.0,438.87,90003,False,17.55,Monday,False,large
+LA001,Store_1,Personal Care,2024-09-03,33.0,337.6,90004,True,10.23,Tuesday,False,large
+LA006,Store_6,Personal Care,2024-09-02,4.0,49.06,90004,True,12.26,Monday,False,small
+LA009,Store_9,Produce,2024-09-09,44.0,571.95,90003,True,13.0,Monday,False,large
+LA009,Store_9,Snacks,2024-09-12,13.0,166.98,90003,False,12.84,Thursday,False,large
+LA010,Store_10,Beverages,2024-09-08,38.0,404.63,unknown,False,10.65,Sunday,True,large
+LA002,Store_2,Beverages,2024-09-07,29.0,221.75,90005,True,7.65,Saturday,True,large
+LA006,Store_6,Personal Care,2024-09-06,35.0,285.67,unknown,False,8.16,Friday,False,large
+LA005,Store_5,Beverages,2024-09-10,37.0,524.63,90002,False,14.18,Tuesday,False,large
+LA005,Store_5,Household,2024-09-02,46.0,157.44,90005,False,3.42,Monday,False,large
+LA009,Store_9,Snacks,2024-09-08,4.0,15.21,90001,False,3.8,Sunday,True,small
+LA001,Store_1,Household,2024-09-01,37.0,475.45,90004,False,12.85,Sunday,True,large
+LA003,Store_3,Household,2024-09-01,19.0,232.18,90004,True,12.22,Sunday,True,large
+LA009,Store_9,Beverages,2024-09-11,26.0,365.21,90001,True,14.05,Wednesday,False,large
+LA005,Store_5,Snacks,2024-09-13,29.0,451.46,unknown,False,15.57,Friday,False,large
+LA003,Store_3,Produce,2024-09-15,24.0,227.65,90002,False,9.49,Sunday,True,large
+LA009,Store_9,Produce,2024-09-07,35.0,164.41,unknown,False,4.7,Saturday,True,large
+LA009,Store_9,Household,2024-09-15,47.0,112.42,90001,False,2.39,Sunday,True,medium
+LA007,Store_7,Beverages,2024-09-12,35.0,696.3,90002,True,19.89,Thursday,False,large
+LA009,Store_9,Household,2024-09-05,8.0,41.7,90001,False,5.21,Thursday,False,small
+LA001,Store_1,Personal Care,2024-09-10,44.0,657.52,90003,False,14.94,Tuesday,False,large
+LA003,Store_3,Snacks,2024-09-09,47.0,741.6,90001,True,15.78,Monday,False,large
+LA004,Store_4,Beverages,2024-09-07,7.0,88.84,unknown,False,12.69,Saturday,True,medium
+LA001,Store_1,Personal Care,2024-09-13,15.0,175.74,unknown,True,11.72,Friday,False,large
+LA010,Store_10,Produce,2024-09-11,39.0,620.32,90005,False,15.91,Wednesday,False,large
+LA004,Store_4,Household,2024-09-14,18.0,55.75,90003,True,3.1,Saturday,True,medium
+LA009,Store_9,Personal Care,2024-09-07,14.0,247.11,90002,False,17.65,Saturday,True,large
+LA007,Store_7,Produce,2024-09-15,42.0,355.6,unknown,False,8.47,Sunday,True,large
+LA006,Store_6,Snacks,2024-09-06,47.0,556.38,90001,True,11.84,Friday,False,large
+LA009,Store_9,Beverages,2024-09-02,43.0,123.55,unknown,True,2.87,Monday,False,medium
+LA003,Store_3,Snacks,2024-09-01,33.0,336.87,90004,True,10.21,Sunday,True,large
+LA008,Store_8,Beverages,2024-09-01,35.0,417.54,90003,True,11.93,Sunday,True,large
+LA006,Store_6,Personal Care,2024-09-09,6.0,52.29,90003,False,8.72,Monday,False,medium
+LA001,Store_1,Produce,2024-09-07,10.0,155.41,90005,False,15.54,Saturday,True,large
+LA006,Store_6,Beverages,2024-09-02,28.0,173.0,90004,True,6.18,Monday,False,large
+LA006,Store_6,Household,2024-09-01,29.0,314.1,90005,False,10.83,Sunday,True,large
+LA007,Store_7,Produce,2024-09-03,19.0,310.93,unknown,True,16.36,Tuesday,False,large
+LA002,Store_2,Beverages,2024-09-05,12.0,117.09,90005,False,9.76,Thursday,False,medium
+LA007,Store_7,Personal Care,2024-09-09,20.0,214.32,90004,True,10.72,Monday,False,large
+LA006,Store_6,Household,2024-09-15,28.0,467.0,90004,True,16.68,Sunday,True,large
+LA006,Store_6,Personal Care,2024-09-06,21.0,152.17,90003,False,7.25,Friday,False,large
+LA007,Store_7,Beverages,2024-09-12,37.0,207.07,90004,True,5.6,Thursday,False,large
+LA004,Store_4,Household,2024-09-15,45.0,146.02,90003,False,3.24,Sunday,True,medium
+LA010,Store_10,Produce,2024-09-02,42.0,596.17,90001,False,14.19,Monday,False,large
+LA001,Store_1,Household,2024-09-04,15.0,167.88,90005,True,11.19,Wednesday,False,large
+LA009,Store_9,Household,2024-09-05,2.0,21.38,unknown,False,10.69,Thursday,False,small
+LA003,Store_3,Household,2024-09-12,22.0,224.31,unknown,True,10.2,Thursday,False,large
+LA008,Store_8,Beverages,2024-09-11,20.0,56.09,90002,True,2.8,Wednesday,False,medium
+LA004,Store_4,Beverages,2024-09-09,37.0,141.77,unknown,True,3.83,Monday,False,medium
+LA008,Store_8,Beverages,2024-09-06,37.0,94.55,90002,True,2.56,Friday,False,medium
+LA001,Store_1,Household,2024-09-15,23.0,402.95,90002,True,17.52,Sunday,True,large
+LA003,Store_3,Snacks,2024-09-08,46.0,358.7,90005,True,7.8,Sunday,True,large
+LA003,Store_3,Personal Care,2024-09-02,41.0,307.47,90002,True,7.5,Monday,False,large
+LA008,Store_8,Snacks,2024-09-03,38.0,230.71,90004,False,6.07,Tuesday,False,large
+LA007,Store_7,Personal Care,2024-09-12,21.0,341.03,90005,True,16.24,Thursday,False,large
+LA010,Store_10,Beverages,2024-09-10,43.0,763.89,90003,True,17.76,Tuesday,False,large
+LA005,Store_5,Produce,2024-09-03,14.0,273.53,unknown,True,19.54,Tuesday,False,large
+LA002,Store_2,Personal Care,2024-09-10,47.0,900.6,90004,True,19.16,Tuesday,False,large
+LA008,Store_8,Produce,2024-09-12,34.0,547.19,90003,False,16.09,Thursday,False,large
+LA006,Store_6,Snacks,2024-09-13,12.0,225.13,90004,True,18.76,Friday,False,large
+LA004,Store_4,Snacks,2024-09-11,27.0,499.11,90005,False,18.49,Wednesday,False,large
+LA001,Store_1,Snacks,2024-09-06,34.0,668.63,90003,False,19.67,Friday,False,large
+LA006,Store_6,Produce,2024-09-03,30.0,64.3,90002,True,2.14,Tuesday,False,medium
+LA008,Store_8,Produce,2024-09-12,32.0,638.73,90002,True,19.96,Thursday,False,large
+LA006,Store_6,Household,2024-09-15,15.0,50.17,90001,True,3.34,Sunday,True,medium
+LA003,Store_3,Personal Care,2024-09-15,21.0,195.66,90003,False,9.32,Sunday,True,large
+LA002,Store_2,Snacks,2024-09-03,44.0,328.94,unknown,True,7.48,Tuesday,False,large
+LA004,Store_4,Personal Care,2024-09-12,33.0,95.08,90004,False,2.88,Thursday,False,medium
+LA003,Store_3,Personal Care,2024-09-07,24.0,344.48,90001,True,14.35,Saturday,True,large
+LA002,Store_2,Personal Care,2024-09-07,9.0,32.9,90005,False,3.66,Saturday,True,small
+LA001,Store_1,Household,2024-09-03,25.0,111.76,90005,True,4.47,Tuesday,False,medium
+LA001,Store_1,Household,2024-09-13,31.0,365.84,90003,False,11.8,Friday,False,large
+LA003,Store_3,Household,2024-09-01,39.0,231.75,90005,False,5.94,Sunday,True,large
+LA004,Store_4,Beverages,2024-09-06,16.0,221.18,90002,False,13.82,Friday,False,large
+LA001,Store_1,Produce,2024-09-11,13.0,214.71,90003,False,16.52,Wednesday,False,large
+LA001,Store_1,Snacks,2024-09-01,38.0,558.01,90001,True,14.68,Sunday,True,large
+LA005,Store_5,Snacks,2024-09-05,47.0,95.52,90002,False,2.03,Thursday,False,medium
+LA010,Store_10,Produce,2024-09-11,15.0,202.7,90002,True,13.51,Wednesday,False,large
+LA006,Store_6,Snacks,2024-09-11,41.0,735.37,90003,True,17.94,Wednesday,False,large
+LA008,Store_8,Household,2024-09-01,14.0,90.88,90001,True,6.49,Sunday,True,medium
+LA007,Store_7,Personal Care,2024-09-15,11.0,197.14,90004,False,17.92,Sunday,True,large
+LA006,Store_6,Personal Care,2024-09-06,11.0,166.93,unknown,True,15.18,Friday,False,large
+LA001,Store_1,Snacks,2024-09-14,39.0,702.61,90004,True,18.02,Saturday,True,large
+LA003,Store_3,Household,2024-09-02,1.0,9.7,90001,False,9.7,Monday,False,small
+LA001,Store_1,Snacks,2024-09-07,41.0,297.36,90004,True,7.25,Saturday,True,large
+LA001,Store_1,Personal Care,2024-09-09,30.0,202.24,90001,False,6.74,Monday,False,large
+LA009,Store_9,Beverages,2024-09-15,45.0,594.68,90005,False,13.22,Sunday,True,large
+LA007,Store_7,Personal Care,2024-09-02,22.0,317.44,90001,True,14.43,Monday,False,large
+LA003,Store_3,Personal Care,2024-09-10,50.0,843.24,90004,False,16.86,Tuesday,False,large
+LA009,Store_9,Snacks,2024-09-13,50.0,866.17,90001,True,17.32,Friday,False,large
+LA004,Store_4,Personal Care,2024-09-02,4.0,74.1,unknown,True,18.52,Monday,False,medium
+LA006,Store_6,Household,2024-09-06,48.0,813.87,90005,True,16.96,Friday,False,large
+LA005,Store_5,Personal Care,2024-09-14,23.0,236.03,90004,True,10.26,Saturday,True,large
+LA010,Store_10,Beverages,2024-09-04,33.0,659.66,unknown,False,19.99,Wednesday,False,large
+LA005,Store_5,Snacks,2024-09-07,34.0,536.47,unknown,True,15.78,Saturday,True,large
+LA006,Store_6,Household,2024-09-12,38.0,277.13,90005,True,7.29,Thursday,False,large
+LA003,Store_3,Household,2024-09-07,27.0,533.78,90001,False,19.77,Saturday,True,large
+LA008,Store_8,Snacks,2024-09-11,21.0,281.84,90005,True,13.42,Wednesday,False,large
+LA009,Store_9,Household,2024-09-07,26.0,18.06,90002,True,0.69,Saturday,True,small
+LA006,Store_6,Snacks,2024-09-10,7.0,62.33,90003,False,8.9,Tuesday,False,medium
+LA009,Store_9,Personal Care,2024-09-09,45.0,214.03,90003,True,4.76,Monday,False,large
+LA008,Store_8,Produce,2024-09-07,13.0,208.04,90005,True,16.0,Saturday,True,large
+LA008,Store_8,Household,2024-09-10,30.0,87.04,unknown,True,2.9,Tuesday,False,medium
+LA006,Store_6,Beverages,2024-09-14,7.0,121.26,90003,True,17.32,Saturday,True,medium
+LA008,Store_8,Personal Care,2024-09-09,45.0,779.04,unknown,False,17.31,Monday,False,large
+LA001,Store_1,Household,2024-09-03,42.0,321.56,90005,True,7.66,Tuesday,False,large
+LA010,Store_10,Personal Care,2024-09-04,43.0,648.43,90005,False,15.08,Wednesday,False,large
+LA010,Store_10,Beverages,2024-09-02,42.0,790.38,90004,False,18.82,Monday,False,large
+LA006,Store_6,Household,2024-09-08,18.0,52.31,90001,True,2.91,Sunday,True,medium
+LA008,Store_8,Produce,2024-09-15,29.0,103.95,unknown,False,3.58,Sunday,True,medium
+LA001,Store_1,Personal Care,2024-09-04,27.0,71.41,unknown,True,2.64,Wednesday,False,medium
+LA008,Store_8,Produce,2024-09-11,50.0,657.78,90001,False,13.16,Wednesday,False,large
+LA004,Store_4,Household,2024-09-01,23.0,389.57,90002,False,16.94,Sunday,True,large
+LA008,Store_8,Personal Care,2024-09-05,7.0,46.04,90004,True,6.58,Thursday,False,small
+LA005,Store_5,Household,2024-09-13,19.0,192.87,90005,True,10.15,Friday,False,large
+LA001,Store_1,Snacks,2024-09-13,4.0,56.26,unknown,True,14.06,Friday,False,medium
+LA005,Store_5,Beverages,2024-09-05,45.0,725.33,90001,True,16.12,Thursday,False,large
+LA004,Store_4,Personal Care,2024-09-10,12.0,236.43,90004,True,19.7,Tuesday,False,large
+LA001,Store_1,Household,2024-09-14,36.0,243.23,unknown,True,6.76,Saturday,True,large
+LA003,Store_3,Snacks,2024-09-02,21.0,267.62,unknown,False,12.74,Monday,False,large
+LA001,Store_1,Household,2024-09-04,29.0,183.46,90001,True,6.33,Wednesday,False,large
+LA007,Store_7,Produce,2024-09-09,47.0,333.27,90003,False,7.09,Monday,False,large
+LA004,Store_4,Produce,2024-09-11,6.0,114.41,unknown,True,19.07,Wednesday,False,medium
+LA002,Store_2,Snacks,2024-09-07,44.0,423.97,unknown,True,9.64,Saturday,True,large
+LA007,Store_7,Beverages,2024-09-11,25.0,352.98,90005,True,14.12,Wednesday,False,large
+LA008,Store_8,Personal Care,2024-09-13,43.0,109.85,90005,True,2.55,Friday,False,medium
+LA002,Store_2,Beverages,2024-09-02,37.0,471.37,90003,True,12.74,Monday,False,large
+LA004,Store_4,Produce,2024-09-14,10.0,48.97,unknown,True,4.9,Saturday,True,small
+LA002,Store_2,Produce,2024-09-07,32.0,612.09,90005,False,19.13,Saturday,True,large
+LA010,Store_10,Household,2024-09-12,28.0,140.99,90004,False,5.04,Thursday,False,medium
+LA004,Store_4,Beverages,2024-09-09,47.0,157.79,90005,True,3.36,Monday,False,large
+LA006,Store_6,Snacks,2024-09-13,50.0,630.64,90003,False,12.61,Friday,False,large
+LA009,Store_9,Snacks,2024-09-01,40.0,572.6,unknown,True,14.32,Sunday,True,large
+LA009,Store_9,Personal Care,2024-09-09,15.0,169.42,90005,False,11.29,Monday,False,large
+LA010,Store_10,Personal Care,2024-09-06,2.0,12.77,90001,True,6.38,Friday,False,small
+LA010,Store_10,Beverages,2024-09-05,11.0,73.14,unknown,True,6.65,Thursday,False,medium
+LA010,Store_10,Snacks,2024-09-03,25.0,223.46,unknown,True,8.94,Tuesday,False,large
+LA009,Store_9,Personal Care,2024-09-01,42.0,239.3,90005,False,5.7,Sunday,True,large
+LA005,Store_5,Produce,2024-09-09,28.0,340.59,90005,False,12.16,Monday,False,large
+LA009,Store_9,Household,2024-09-13,36.0,279.5,90001,True,7.76,Friday,False,large
+LA001,Store_1,Produce,2024-09-07,19.0,104.6,unknown,True,5.51,Saturday,True,medium
+LA001,Store_1,Beverages,2024-09-06,18.0,288.61,90001,False,16.03,Friday,False,large
+LA006,Store_6,Produce,2024-09-04,17.0,302.09,90002,False,17.77,Wednesday,False,large
+LA006,Store_6,Produce,2024-09-03,12.0,126.94,unknown,False,10.58,Tuesday,False,medium
+LA006,Store_6,Beverages,2024-09-05,8.0,148.51,90001,False,18.56,Thursday,False,medium
+LA008,Store_8,Produce,2024-09-12,21.0,228.1,90003,False,10.86,Thursday,False,large
+LA007,Store_7,Produce,2024-09-08,9.0,26.77,90004,False,2.97,Sunday,True,small
+LA003,Store_3,Beverages,2024-09-15,45.0,509.75,90005,False,11.33,Sunday,True,large
+LA002,Store_2,Household,2024-09-11,40.0,700.53,90005,True,17.51,Wednesday,False,large
+LA006,Store_6,Snacks,2024-09-12,32.0,308.19,90003,False,9.63,Thursday,False,large
+LA008,Store_8,Produce,2024-09-06,9.0,176.64,90005,True,19.63,Friday,False,large
+LA006,Store_6,Personal Care,2024-09-01,8.0,66.56,90003,True,8.32,Sunday,True,medium
+LA006,Store_6,Produce,2024-09-11,32.0,510.25,unknown,False,15.95,Wednesday,False,large
+LA002,Store_2,Household,2024-09-06,15.0,114.64,90004,False,7.64,Friday,False,medium
+LA005,Store_5,Snacks,2024-09-08,48.0,341.53,unknown,True,7.12,Sunday,True,large
+LA003,Store_3,Household,2024-09-12,31.0,279.5,90004,False,9.02,Thursday,False,large
+LA005,Store_5,Produce,2024-09-10,18.0,169.78,90005,True,9.43,Tuesday,False,large
+LA008,Store_8,Produce,2024-09-09,32.0,172.17,90001,True,5.38,Monday,False,large
+LA005,Store_5,Snacks,2024-09-09,46.0,455.01,90003,True,9.89,Monday,False,large
+LA007,Store_7,Personal Care,2024-09-10,24.0,248.31,90001,True,10.35,Tuesday,False,large
+LA002,Store_2,Personal Care,2024-09-08,21.0,47.7,90001,False,2.27,Sunday,True,small
+LA010,Store_10,Beverages,2024-09-11,4.0,33.6,90002,True,8.4,Wednesday,False,small
+LA008,Store_8,Produce,2024-09-09,36.0,175.9,90004,True,4.89,Monday,False,large
+LA006,Store_6,Beverages,2024-09-04,34.0,471.24,90002,True,13.86,Wednesday,False,large
+LA001,Store_1,Snacks,2024-09-12,39.0,581.93,90001,True,14.92,Thursday,False,large
+LA004,Store_4,Produce,2024-09-13,48.0,315.53,90003,False,6.57,Friday,False,large
+LA010,Store_10,Produce,2024-09-01,9.0,178.93,90003,False,19.88,Sunday,True,large
+LA007,Store_7,Beverages,2024-09-03,50.0,400.95,90002,False,8.02,Tuesday,False,large
+LA003,Store_3,Produce,2024-09-11,45.0,268.85,90005,True,5.97,Wednesday,False,large
+LA010,Store_10,Beverages,2024-09-03,43.0,406.11,90001,False,9.44,Tuesday,False,large
+LA005,Store_5,Household,2024-09-06,40.0,671.54,90002,False,16.79,Friday,False,large
+LA005,Store_5,Household,2024-09-01,45.0,741.47,90005,False,16.48,Sunday,True,large
+LA004,Store_4,Produce,2024-09-07,34.0,527.22,unknown,False,15.51,Saturday,True,large
+LA001,Store_1,Produce,2024-09-13,43.0,493.74,90005,False,11.48,Friday,False,large
+LA005,Store_5,Personal Care,2024-09-02,42.0,798.55,unknown,True,19.01,Monday,False,large
+LA001,Store_1,Produce,2024-09-08,20.0,160.09,90003,False,8.0,Sunday,True,large
+LA005,Store_5,Produce,2024-09-08,18.0,299.05,90001,False,16.61,Sunday,True,large
+LA009,Store_9,Snacks,2024-09-09,10.0,81.52,unknown,False,8.15,Monday,False,medium
+LA009,Store_9,Snacks,2024-09-05,42.0,188.76,90005,True,4.49,Thursday,False,large
+LA003,Store_3,Snacks,2024-09-14,42.0,789.37,90001,True,18.79,Saturday,True,large
+LA003,Store_3,Snacks,2024-09-11,47.0,118.94,90004,False,2.53,Wednesday,False,medium
+LA005,Store_5,Snacks,2024-09-05,7.0,30.57,90005,True,4.37,Thursday,False,small
+LA010,Store_10,Produce,2024-09-08,15.0,92.35,90005,True,6.16,Sunday,True,medium
+LA006,Store_6,Produce,2024-09-13,48.0,590.15,90001,True,12.29,Friday,False,large
+LA004,Store_4,Personal Care,2024-09-10,26.0,465.9,90001,False,17.92,Tuesday,False,large
+LA009,Store_9,Personal Care,2024-09-05,27.0,211.2,90002,True,7.82,Thursday,False,large
+LA008,Store_8,Household,2024-09-03,21.0,303.47,90004,True,14.45,Tuesday,False,large
+LA006,Store_6,Produce,2024-09-03,46.0,410.02,90003,True,8.91,Tuesday,False,large
+LA008,Store_8,Snacks,2024-09-10,8.0,145.39,90004,True,18.17,Tuesday,False,medium
+LA003,Store_3,Beverages,2024-09-05,42.0,347.86,90003,True,8.28,Thursday,False,large
+LA009,Store_9,Personal Care,2024-09-03,47.0,676.6,90005,False,14.4,Tuesday,False,large
+LA010,Store_10,Snacks,2024-09-12,40.0,485.1,unknown,False,12.13,Thursday,False,large
+LA005,Store_5,Beverages,2024-09-07,8.0,19.45,90004,True,2.43,Saturday,True,small
+LA007,Store_7,Household,2024-09-02,23.0,278.01,90001,True,12.09,Monday,False,large
+LA005,Store_5,Produce,2024-09-10,36.0,281.9,90005,True,7.83,Tuesday,False,large
+LA010,Store_10,Snacks,2024-09-01,13.0,103.34,90001,False,7.95,Sunday,True,medium
+LA009,Store_9,Produce,2024-09-10,47.0,667.76,90003,True,14.21,Tuesday,False,large
+LA002,Store_2,Household,2024-09-05,2.0,16.21,90004,False,8.1,Thursday,False,small
+LA006,Store_6,Household,2024-09-15,14.0,160.33,90001,True,11.45,Sunday,True,large
+LA002,Store_2,Personal Care,2024-09-11,3.0,11.57,90002,False,3.86,Wednesday,False,small
+LA006,Store_6,Snacks,2024-09-07,19.0,132.61,90002,False,6.98,Saturday,True,medium
+LA005,Store_5,Beverages,2024-09-04,40.0,482.93,90002,True,12.07,Wednesday,False,large
+LA001,Store_1,Personal Care,2024-09-04,4.0,14.2,unknown,False,3.55,Wednesday,False,small
+LA010,Store_10,Beverages,2024-09-05,45.0,469.3,90004,False,10.43,Thursday,False,large
+LA004,Store_4,Snacks,2024-09-08,40.0,265.8,90003,False,6.64,Sunday,True,large
+LA008,Store_8,Produce,2024-09-13,27.0,169.95,90003,True,6.29,Friday,False,large
+LA007,Store_7,Produce,2024-09-03,7.0,100.37,90002,False,14.34,Tuesday,False,medium
+LA006,Store_6,Produce,2024-09-03,1.0,13.01,90005,False,13.01,Tuesday,False,small
+LA001,Store_1,Produce,2024-09-01,23.0,91.42,90004,False,3.97,Sunday,True,medium
+LA010,Store_10,Personal Care,2024-09-06,33.0,317.93,90001,False,9.63,Friday,False,large
+LA001,Store_1,Beverages,2024-09-11,10.0,127.2,90004,True,12.72,Wednesday,False,medium
+LA002,Store_2,Snacks,2024-09-02,30.0,275.32,90002,False,9.18,Monday,False,large
+LA006,Store_6,Household,2024-09-09,7.0,46.17,unknown,False,6.6,Monday,False,small
+LA001,Store_1,Beverages,2024-09-14,34.0,131.59,90001,False,3.87,Saturday,True,medium
+LA007,Store_7,Household,2024-09-13,4.0,26.59,90002,False,6.65,Friday,False,small
+LA010,Store_10,Snacks,2024-09-13,42.0,456.0,90001,True,10.86,Friday,False,large
+LA004,Store_4,Personal Care,2024-09-10,7.0,93.46,90002,False,13.35,Tuesday,False,medium
+LA003,Store_3,Snacks,2024-09-02,2.0,29.91,90003,True,14.96,Monday,False,small
+LA009,Store_9,Produce,2024-09-15,10.0,153.39,unknown,True,15.34,Sunday,True,large
+LA004,Store_4,Household,2024-09-14,48.0,682.14,90003,False,14.21,Saturday,True,large
+LA003,Store_3,Personal Care,2024-09-01,6.0,12.69,90003,True,2.11,Sunday,True,small
+LA006,Store_6,Beverages,2024-09-14,36.0,224.69,90005,True,6.24,Saturday,True,large
+LA009,Store_9,Personal Care,2024-09-08,50.0,663.82,unknown,True,13.28,Sunday,True,large
+LA009,Store_9,Beverages,2024-09-04,16.0,239.76,90002,False,14.98,Wednesday,False,large
+LA002,Store_2,Snacks,2024-09-11,7.0,43.88,90004,False,6.27,Wednesday,False,small
+LA006,Store_6,Snacks,2024-09-09,22.0,94.38,90004,True,4.29,Monday,False,medium
+LA005,Store_5,Personal Care,2024-09-01,48.0,849.93,90005,True,17.71,Sunday,True,large
+LA007,Store_7,Snacks,2024-09-07,23.0,168.46,90004,True,7.32,Saturday,True,large
+LA006,Store_6,Personal Care,2024-09-15,33.0,378.85,90003,True,11.48,Sunday,True,large
+LA003,Store_3,Beverages,2024-09-10,7.0,34.76,90005,True,4.97,Tuesday,False,small
+LA001,Store_1,Personal Care,2024-09-10,44.0,516.82,90001,True,11.75,Tuesday,False,large
+LA005,Store_5,Beverages,2024-09-07,2.0,35.38,90005,True,17.69,Saturday,True,small
+LA003,Store_3,Snacks,2024-09-06,8.0,21.93,90002,False,2.74,Friday,False,small
+LA005,Store_5,Beverages,2024-09-04,26.0,487.74,unknown,True,18.76,Wednesday,False,large
+LA006,Store_6,Household,2024-09-13,1.0,7.12,90002,False,7.12,Friday,False,small
+LA002,Store_2,Snacks,2024-09-05,20.0,210.86,90001,False,10.54,Thursday,False,large
+LA001,Store_1,Household,2024-09-14,27.0,139.0,90002,False,5.15,Saturday,True,medium
+LA007,Store_7,Produce,2024-09-10,32.0,88.33,90004,False,2.76,Tuesday,False,medium
+LA004,Store_4,Beverages,2024-09-01,10.0,67.28,90002,False,6.73,Sunday,True,medium
+LA010,Store_10,Household,2024-09-01,11.0,137.17,90002,True,12.47,Sunday,True,medium
+LA001,Store_1,Household,2024-09-09,27.0,363.22,90001,False,13.45,Monday,False,large
+LA009,Store_9,Snacks,2024-09-07,49.0,181.36,unknown,True,3.7,Saturday,True,large
+LA005,Store_5,Household,2024-09-09,7.0,81.34,90003,False,11.62,Monday,False,medium
+LA008,Store_8,Household,2024-09-14,11.0,42.28,90005,True,3.84,Saturday,True,small
+LA005,Store_5,Snacks,2024-09-05,9.0,176.94,90004,False,19.66,Thursday,False,large
+LA007,Store_7,Snacks,2024-09-02,7.0,18.13,90003,True,2.59,Monday,False,small
+LA002,Store_2,Household,2024-09-05,38.0,313.92,90005,True,8.26,Thursday,False,large
+LA010,Store_10,Beverages,2024-09-03,38.0,598.06,90005,True,15.74,Tuesday,False,large
+LA007,Store_7,Personal Care,2024-09-10,39.0,594.79,90004,False,15.25,Tuesday,False,large
+LA007,Store_7,Produce,2024-09-15,43.0,609.63,90001,True,14.18,Sunday,True,large
+LA003,Store_3,Household,2024-09-03,13.0,105.24,90003,False,8.1,Tuesday,False,medium
+LA009,Store_9,Snacks,2024-09-09,50.0,509.17,90002,True,10.18,Monday,False,large
+LA001,Store_1,Beverages,2024-09-04,5.0,54.83,90002,True,10.97,Wednesday,False,medium
+LA009,Store_9,Produce,2024-09-09,22.0,364.55,90001,True,16.57,Monday,False,large
+LA007,Store_7,Household,2024-09-15,25.0,249.15,90003,True,9.97,Sunday,True,large
+LA006,Store_6,Snacks,2024-09-02,16.0,99.57,90003,False,6.22,Monday,False,medium
+LA002,Store_2,Snacks,2024-09-11,2.0,23.38,90004,True,11.69,Wednesday,False,small
+LA005,Store_5,Personal Care,2024-09-01,38.0,91.21,90004,False,2.4,Sunday,True,medium
+LA008,Store_8,Snacks,2024-09-14,23.0,375.4,90003,False,16.32,Saturday,True,large
+LA004,Store_4,Personal Care,2024-09-14,17.0,225.24,unknown,False,13.25,Saturday,True,large
+LA008,Store_8,Beverages,2024-09-18,25.0,85.46,90005,False,3.42,Wednesday,False,medium
+LA004,Store_4,Beverages,2024-09-23,3.0,41.71,90004,False,13.9,Monday,False,small
+LA010,Store_10,Snacks,2024-09-21,35.0,529.35,unknown,True,15.12,Saturday,True,large
+LA004,Store_4,Produce,2024-09-30,46.0,352.55,90003,False,7.66,Monday,False,large
+LA009,Store_9,Beverages,2024-09-16,49.0,139.56,90005,True,2.85,Monday,False,medium
+LA002,Store_2,Produce,2024-09-22,49.0,333.34,unknown,False,6.8,Sunday,True,large
+LA005,Store_5,Snacks,2024-09-17,33.0,608.1,90003,False,18.43,Tuesday,False,large
+LA003,Store_3,Produce,2024-09-18,1.0,12.78,90003,False,12.78,Wednesday,False,small
+LA004,Store_4,Household,2024-09-23,26.0,517.73,90002,False,19.91,Monday,False,large
+LA001,Store_1,Household,2024-09-28,5.0,56.27,90005,False,11.25,Saturday,True,medium
+LA010,Store_10,Snacks,2024-09-16,31.0,512.58,90004,True,16.53,Monday,False,large
+LA008,Store_8,Beverages,2024-09-28,44.0,605.54,90001,True,13.76,Saturday,True,large
+LA008,Store_8,Produce,2024-09-26,7.0,20.37,90002,True,2.91,Thursday,False,small
+LA007,Store_7,Personal Care,2024-09-16,26.0,245.89,90004,True,9.46,Monday,False,large
+LA002,Store_2,Snacks,2024-09-28,5.0,63.55,90005,True,12.71,Saturday,True,medium
+LA010,Store_10,Beverages,2024-09-19,5.0,58.39,90002,False,11.68,Thursday,False,medium
+LA006,Store_6,Snacks,2024-09-25,41.0,805.09,90001,True,19.64,Wednesday,False,large
+LA006,Store_6,Beverages,2024-09-29,23.0,132.97,90004,True,5.78,Sunday,True,medium
+LA010,Store_10,Snacks,2024-09-24,16.0,281.01,90003,True,17.56,Tuesday,False,large
+LA007,Store_7,Snacks,2024-09-26,18.0,87.58,90002,True,4.87,Thursday,False,medium
+LA006,Store_6,Produce,2024-09-21,26.0,370.01,90002,False,14.23,Saturday,True,large
+LA003,Store_3,Produce,2024-09-20,20.0,186.19,90005,True,9.31,Friday,False,large
+LA004,Store_4,Snacks,2024-09-26,10.0,24.4,90004,True,2.44,Thursday,False,small
+LA007,Store_7,Produce,2024-09-29,13.0,194.09,90001,False,14.93,Sunday,True,large
+LA002,Store_2,Personal Care,2024-09-25,15.0,77.49,90004,False,5.17,Wednesday,False,medium
+LA003,Store_3,Personal Care,2024-09-26,43.0,497.1,unknown,False,11.56,Thursday,False,large
+LA009,Store_9,Snacks,2024-09-16,18.0,178.52,90001,False,9.92,Monday,False,large
+LA006,Store_6,Personal Care,2024-09-22,47.0,233.63,90004,False,4.97,Sunday,True,large
+LA010,Store_10,Beverages,2024-09-19,6.0,81.42,90003,True,13.57,Thursday,False,medium
+LA008,Store_8,Household,2024-09-23,50.0,432.01,90005,True,8.64,Monday,False,large
+LA001,Store_1,Household,2024-09-30,37.0,525.11,unknown,False,14.19,Monday,False,large
+LA007,Store_7,Household,2024-09-22,5.0,55.54,90004,False,11.11,Sunday,True,medium
+LA006,Store_6,Personal Care,2024-09-21,46.0,218.68,90005,True,4.75,Saturday,True,large
+LA004,Store_4,Personal Care,2024-09-25,37.0,480.48,90004,False,12.99,Wednesday,False,large
+LA007,Store_7,Produce,2024-09-16,49.0,309.97,90001,False,6.33,Monday,False,large
+LA009,Store_9,Snacks,2024-09-25,13.0,76.63,90005,False,5.89,Wednesday,False,medium
+LA001,Store_1,Household,2024-09-18,45.0,854.71,90004,False,18.99,Wednesday,False,large
+LA010,Store_10,Produce,2024-09-26,15.0,239.44,90004,False,15.96,Thursday,False,large
+LA005,Store_5,Produce,2024-09-19,4.0,51.89,unknown,True,12.97,Thursday,False,medium
+LA010,Store_10,Snacks,2024-09-22,28.0,113.85,90001,True,4.07,Sunday,True,medium
+LA005,Store_5,Produce,2024-09-17,32.0,316.15,90001,True,9.88,Tuesday,False,large
+LA008,Store_8,Household,2024-09-30,12.0,239.34,90003,False,19.94,Monday,False,large
+LA010,Store_10,Snacks,2024-09-26,46.0,223.14,90001,True,4.85,Thursday,False,large
+LA006,Store_6,Produce,2024-09-30,18.0,301.86,unknown,False,16.77,Monday,False,large
+LA008,Store_8,Snacks,2024-09-28,29.0,339.14,90003,False,11.69,Saturday,True,large
+LA004,Store_4,Snacks,2024-09-23,37.0,329.06,90004,False,8.89,Monday,False,large
+LA007,Store_7,Snacks,2024-09-22,32.0,619.74,90004,True,19.37,Sunday,True,large
+LA002,Store_2,Personal Care,2024-09-17,1.0,15.0,90003,False,15.0,Tuesday,False,small
+LA006,Store_6,Personal Care,2024-09-20,42.0,144.72,90003,False,3.45,Friday,False,medium
+LA008,Store_8,Produce,2024-09-28,3.0,39.34,unknown,True,13.11,Saturday,True,small
+LA006,Store_6,Beverages,2024-09-26,19.0,160.59,90002,False,8.45,Thursday,False,large
+LA006,Store_6,Household,2024-09-19,41.0,791.98,90004,False,19.32,Thursday,False,large
+LA004,Store_4,Household,2024-09-20,15.0,201.89,90002,False,13.46,Friday,False,large
+LA002,Store_2,Beverages,2024-09-29,20.0,323.9,90003,True,16.2,Sunday,True,large
+LA006,Store_6,Personal Care,2024-09-24,12.0,67.37,90003,False,5.61,Tuesday,False,medium
+LA008,Store_8,Household,2024-09-26,48.0,848.02,90002,True,17.67,Thursday,False,large
+LA007,Store_7,Produce,2024-09-28,24.0,87.01,unknown,False,3.63,Saturday,True,medium
+LA005,Store_5,Personal Care,2024-09-19,41.0,775.94,90005,True,18.93,Thursday,False,large
+LA006,Store_6,Produce,2024-09-30,15.0,204.87,90002,False,13.66,Monday,False,large
+LA001,Store_1,Household,2024-09-23,14.0,139.73,90005,True,9.98,Monday,False,medium
+LA004,Store_4,Snacks,2024-09-19,15.0,118.71,90002,True,7.91,Thursday,False,medium
+LA003,Store_3,Household,2024-09-18,12.0,47.74,90005,True,3.98,Wednesday,False,small
+LA009,Store_9,Beverages,2024-09-19,29.0,321.0,90003,True,11.07,Thursday,False,large
+LA008,Store_8,Beverages,2024-09-21,4.0,79.9,90004,False,19.98,Saturday,True,medium
+LA002,Store_2,Beverages,2024-09-29,21.0,271.94,unknown,True,12.95,Sunday,True,large
+LA009,Store_9,Snacks,2024-09-24,28.0,283.58,unknown,True,10.13,Tuesday,False,large
+LA008,Store_8,Household,2024-09-17,3.0,17.91,90002,True,5.97,Tuesday,False,small
+LA009,Store_9,Household,2024-09-27,5.0,45.74,90003,True,9.15,Friday,False,small
+LA005,Store_5,Household,2024-09-24,15.0,119.93,90002,True,8.0,Tuesday,False,medium
+LA006,Store_6,Household,2024-09-28,10.0,99.16,90001,False,9.92,Saturday,True,medium
+LA006,Store_6,Beverages,2024-09-17,20.0,206.23,90001,True,10.31,Tuesday,False,large
+LA010,Store_10,Produce,2024-09-20,25.0,258.22,90003,True,10.33,Friday,False,large
+LA010,Store_10,Produce,2024-09-16,10.0,192.39,unknown,False,19.24,Monday,False,large
+LA002,Store_2,Snacks,2024-09-17,3.0,19.38,90003,False,6.46,Tuesday,False,small
+LA006,Store_6,Household,2024-09-30,25.0,233.95,90003,False,9.36,Monday,False,large
+LA010,Store_10,Beverages,2024-09-23,20.0,241.21,unknown,False,12.06,Monday,False,large
+LA001,Store_1,Household,2024-09-22,50.0,656.23,90005,False,13.12,Sunday,True,large
+LA003,Store_3,Personal Care,2024-09-24,3.0,28.19,90004,True,9.4,Tuesday,False,small
+LA004,Store_4,Snacks,2024-09-18,20.0,387.61,90005,False,19.38,Wednesday,False,large
+LA002,Store_2,Household,2024-09-27,10.0,44.77,unknown,False,4.48,Friday,False,small
+LA010,Store_10,Personal Care,2024-09-17,8.0,127.77,90005,True,15.97,Tuesday,False,medium
+LA002,Store_2,Produce,2024-09-17,33.0,533.13,90003,True,16.16,Tuesday,False,large
+LA005,Store_5,Beverages,2024-09-24,23.0,372.45,90005,False,16.19,Tuesday,False,large
+LA003,Store_3,Snacks,2024-09-26,5.0,74.44,90001,False,14.89,Thursday,False,medium
+LA006,Store_6,Household,2024-09-30,33.0,302.55,90003,False,9.17,Monday,False,large
+LA001,Store_1,Household,2024-09-28,18.0,76.33,90004,False,4.24,Saturday,True,medium
+LA003,Store_3,Household,2024-09-18,21.0,80.78,90004,False,3.85,Wednesday,False,medium
+LA003,Store_3,Personal Care,2024-09-23,23.0,231.11,90001,False,10.05,Monday,False,large
+LA002,Store_2,Personal Care,2024-09-22,24.0,269.65,90004,True,11.24,Sunday,True,large
+LA005,Store_5,Personal Care,2024-09-23,13.0,54.7,90001,True,4.21,Monday,False,medium
+LA006,Store_6,Household,2024-09-22,46.0,145.77,unknown,False,3.17,Sunday,True,medium
+LA003,Store_3,Household,2024-09-26,33.0,199.2,90003,True,6.04,Thursday,False,large
+LA009,Store_9,Household,2024-09-19,30.0,493.98,unknown,True,16.47,Thursday,False,large
+LA008,Store_8,Personal Care,2024-09-17,50.0,468.49,90004,True,9.37,Tuesday,False,large
+LA002,Store_2,Snacks,2024-09-17,20.0,99.28,90005,False,4.96,Tuesday,False,medium
+LA005,Store_5,Beverages,2024-09-28,17.0,94.07,90005,False,5.53,Saturday,True,medium
+LA003,Store_3,Produce,2024-09-19,10.0,50.82,90001,False,5.08,Thursday,False,medium
+LA005,Store_5,Household,2024-09-21,31.0,198.64,90004,False,6.41,Saturday,True,large
+LA007,Store_7,Personal Care,2024-09-16,14.0,113.73,90003,True,8.12,Monday,False,medium
+LA010,Store_10,Household,2024-09-24,13.0,204.57,90004,False,15.74,Tuesday,False,large
+LA010,Store_10,Personal Care,2024-09-29,19.0,221.55,90004,True,11.66,Sunday,True,large
+LA008,Store_8,Personal Care,2024-09-17,10.0,129.13,90005,True,12.91,Tuesday,False,medium
+LA005,Store_5,Household,2024-09-19,33.0,558.0,90003,False,16.91,Thursday,False,large
+LA006,Store_6,Beverages,2024-09-22,27.0,337.68,90005,True,12.51,Sunday,True,large
+LA008,Store_8,Beverages,2024-09-28,46.0,206.33,90004,True,4.49,Saturday,True,large
+LA005,Store_5,Personal Care,2024-09-20,13.0,250.02,90003,False,19.23,Friday,False,large
+LA005,Store_5,Snacks,2024-09-23,45.0,661.04,unknown,False,14.69,Monday,False,large
+LA005,Store_5,Produce,2024-09-30,45.0,310.01,unknown,True,6.89,Monday,False,large
+LA009,Store_9,Snacks,2024-09-30,27.0,371.31,90003,False,13.75,Monday,False,large
+LA005,Store_5,Beverages,2024-09-21,50.0,180.51,90002,True,3.61,Saturday,True,large
+LA007,Store_7,Snacks,2024-09-29,3.0,59.85,90003,False,19.95,Sunday,True,medium
+LA003,Store_3,Produce,2024-09-28,30.0,207.33,unknown,True,6.91,Saturday,True,large
+LA006,Store_6,Snacks,2024-09-23,4.0,56.08,unknown,False,14.02,Monday,False,medium
+LA005,Store_5,Beverages,2024-09-23,41.0,758.1,90004,False,18.49,Monday,False,large
+LA010,Store_10,Beverages,2024-09-28,34.0,341.41,90005,False,10.04,Saturday,True,large
+LA010,Store_10,Beverages,2024-09-16,33.0,330.62,90001,True,10.02,Monday,False,large
+LA003,Store_3,Personal Care,2024-09-25,24.0,476.91,90001,False,19.87,Wednesday,False,large
+LA007,Store_7,Produce,2024-09-26,21.0,305.2,90004,False,14.53,Thursday,False,large
+LA004,Store_4,Snacks,2024-09-28,20.0,348.71,90004,True,17.44,Saturday,True,large
+LA009,Store_9,Snacks,2024-09-17,25.0,159.29,90003,True,6.37,Tuesday,False,large
+LA002,Store_2,Snacks,2024-09-18,4.0,27.33,unknown,True,6.83,Wednesday,False,small
+LA002,Store_2,Personal Care,2024-09-24,16.0,232.34,90003,True,14.52,Tuesday,False,large
+LA008,Store_8,Household,2024-09-25,14.0,121.42,90001,False,8.67,Wednesday,False,medium
+LA005,Store_5,Produce,2024-09-18,38.0,568.49,90002,False,14.96,Wednesday,False,large
+LA008,Store_8,Household,2024-09-18,17.0,267.59,90002,False,15.74,Wednesday,False,large
+LA001,Store_1,Personal Care,2024-09-17,12.0,47.12,90003,True,3.93,Tuesday,False,small
+LA002,Store_2,Beverages,2024-09-21,6.0,279.5,90002,False,46.58,Saturday,True,large
+LA002,Store_2,Personal Care,2024-09-16,42.0,676.99,unknown,True,16.12,Monday,False,large
+LA010,Store_10,Household,2024-09-16,3.0,55.9,90003,False,18.63,Monday,False,medium
+LA007,Store_7,Produce,2024-09-22,22.0,196.0,unknown,True,8.91,Sunday,True,large
+LA003,Store_3,Personal Care,2024-09-24,21.0,178.34,90003,True,8.49,Tuesday,False,large
+LA010,Store_10,Household,2024-09-26,25.0,55.55,90002,False,2.22,Thursday,False,medium
+LA010,Store_10,Snacks,2024-09-17,44.0,389.54,90002,True,8.85,Tuesday,False,large
+LA010,Store_10,Snacks,2024-09-20,30.0,117.77,90004,False,3.93,Friday,False,medium
+LA003,Store_3,Personal Care,2024-09-23,25.0,83.28,unknown,False,3.33,Monday,False,medium
+LA007,Store_7,Beverages,2024-09-18,24.0,351.11,90002,True,14.63,Wednesday,False,large
+LA004,Store_4,Snacks,2024-09-17,36.0,175.77,90002,False,4.88,Tuesday,False,large
+LA003,Store_3,Personal Care,2024-09-21,26.0,279.5,90002,True,10.75,Saturday,True,large
+LA008,Store_8,Household,2024-09-17,39.0,350.82,90005,False,9.0,Tuesday,False,large
+LA003,Store_3,Household,2024-09-27,40.0,504.92,90003,True,12.62,Friday,False,large
+LA003,Store_3,Personal Care,2024-09-17,27.0,343.86,unknown,False,12.74,Tuesday,False,large
+LA003,Store_3,Snacks,2024-09-18,32.0,230.37,90003,True,7.2,Wednesday,False,large
+LA001,Store_1,Snacks,2024-09-16,13.0,216.76,90004,False,16.67,Monday,False,large
+LA008,Store_8,Personal Care,2024-09-19,36.0,403.0,90005,True,11.19,Thursday,False,large
+LA001,Store_1,Personal Care,2024-09-25,35.0,207.68,90003,False,5.93,Wednesday,False,large
+LA004,Store_4,Produce,2024-09-26,45.0,374.01,90002,False,8.31,Thursday,False,large
+LA001,Store_1,Household,2024-09-19,35.0,247.08,90003,True,7.06,Thursday,False,large
+LA009,Store_9,Beverages,2024-09-29,9.0,173.97,90002,False,19.33,Sunday,True,large
+LA005,Store_5,Personal Care,2024-09-21,25.0,253.4,90003,True,10.14,Saturday,True,large
+LA008,Store_8,Household,2024-09-16,38.0,77.69,90003,True,2.04,Monday,False,medium
+LA002,Store_2,Produce,2024-09-26,26.0,153.94,90003,False,5.92,Thursday,False,large
+LA006,Store_6,Produce,2024-09-18,9.0,109.72,90001,False,12.19,Wednesday,False,medium
+LA002,Store_2,Personal Care,2024-09-21,26.0,8.47,90002,True,0.33,Saturday,True,small
+LA003,Store_3,Household,2024-09-29,11.0,195.14,unknown,False,17.74,Sunday,True,large
+LA003,Store_3,Beverages,2024-09-16,15.0,133.43,90004,True,8.9,Monday,False,medium
+LA003,Store_3,Snacks,2024-09-21,5.0,57.75,90002,True,11.55,Saturday,True,medium
+LA003,Store_3,Personal Care,2024-09-30,40.0,574.33,90005,True,14.36,Monday,False,large
+LA001,Store_1,Snacks,2024-09-26,32.0,286.27,90001,True,8.95,Thursday,False,large
+LA006,Store_6,Household,2024-09-30,9.0,80.67,90001,False,8.96,Monday,False,medium
+LA001,Store_1,Beverages,2024-09-19,1.0,6.72,90003,True,6.72,Thursday,False,small
+LA009,Store_9,Personal Care,2024-09-25,28.0,409.71,90001,True,14.63,Wednesday,False,large
+LA010,Store_10,Beverages,2024-09-20,20.0,279.79,90002,True,13.99,Friday,False,large
+LA002,Store_2,Beverages,2024-09-25,22.0,363.61,unknown,False,16.53,Wednesday,False,large
+LA002,Store_2,Personal Care,2024-09-16,33.0,279.91,90001,False,8.48,Monday,False,large
+LA010,Store_10,Beverages,2024-09-22,15.0,230.01,90004,True,15.33,Sunday,True,large
+LA001,Store_1,Personal Care,2024-09-30,2.0,279.5,90003,False,139.75,Monday,False,large
+LA001,Store_1,Personal Care,2024-09-25,48.0,724.31,90001,True,15.09,Wednesday,False,large
+LA003,Store_3,Household,2024-09-23,6.0,16.74,90003,True,2.79,Monday,False,small
+LA008,Store_8,Beverages,2024-09-24,38.0,141.37,90001,True,3.72,Tuesday,False,medium
+LA007,Store_7,Snacks,2024-09-22,16.0,116.0,90003,False,7.25,Sunday,True,medium
+LA008,Store_8,Produce,2024-09-18,16.0,59.28,90002,True,3.7,Wednesday,False,medium
+LA007,Store_7,Personal Care,2024-09-27,32.0,80.98,90003,False,2.53,Friday,False,medium
+LA008,Store_8,Snacks,2024-09-29,3.0,39.16,90004,True,13.05,Sunday,True,small
+LA010,Store_10,Personal Care,2024-09-28,23.0,433.18,unknown,True,18.83,Saturday,True,large
+LA006,Store_6,Produce,2024-09-30,2.0,29.32,90002,False,14.66,Monday,False,small
+LA008,Store_8,Household,2024-09-18,12.0,129.93,90004,True,10.83,Wednesday,False,medium
+LA006,Store_6,Personal Care,2024-09-23,38.0,145.11,90004,False,3.82,Monday,False,medium
+LA008,Store_8,Household,2024-09-21,12.0,176.75,90003,False,14.73,Saturday,True,large
+LA010,Store_10,Snacks,2024-09-21,11.0,111.35,90001,True,10.12,Saturday,True,medium
+LA009,Store_9,Produce,2024-09-24,17.0,236.14,90004,False,13.89,Tuesday,False,large
+LA008,Store_8,Household,2024-09-29,6.0,81.32,90004,False,13.55,Sunday,True,medium
+LA002,Store_2,Household,2024-09-22,35.0,330.81,90004,True,9.45,Sunday,True,large
+LA009,Store_9,Personal Care,2024-09-22,37.0,661.18,90001,False,17.87,Sunday,True,large
+LA009,Store_9,Produce,2024-09-19,37.0,525.24,90002,True,14.2,Thursday,False,large
+LA004,Store_4,Snacks,2024-09-26,9.0,24.91,unknown,True,2.77,Thursday,False,small
+LA003,Store_3,Produce,2024-09-27,17.0,131.84,90003,True,7.76,Friday,False,medium
+LA002,Store_2,Beverages,2024-09-30,37.0,593.18,90003,False,16.03,Monday,False,large
+LA007,Store_7,Personal Care,2024-09-21,37.0,479.57,unknown,True,12.96,Saturday,True,large
+LA006,Store_6,Household,2024-09-27,20.0,140.92,90002,False,7.05,Friday,False,medium
+LA004,Store_4,Personal Care,2024-09-30,48.0,514.57,90003,False,10.72,Monday,False,large
+LA002,Store_2,Beverages,2024-09-22,16.0,139.27,90003,False,8.7,Sunday,True,medium
+LA004,Store_4,Snacks,2024-09-28,42.0,254.18,unknown,True,6.05,Saturday,True,large
+LA001,Store_1,Snacks,2024-09-16,42.0,214.94,unknown,True,5.12,Monday,False,large
+LA002,Store_2,Beverages,2024-09-16,22.0,435.39,unknown,False,19.79,Monday,False,large
+LA006,Store_6,Snacks,2024-09-22,47.0,115.54,90004,False,2.46,Sunday,True,medium
+LA001,Store_1,Produce,2024-09-19,13.0,106.3,unknown,True,8.18,Thursday,False,medium
+LA006,Store_6,Household,2024-09-17,11.0,188.45,unknown,True,17.13,Tuesday,False,large
+LA009,Store_9,Snacks,2024-09-25,44.0,800.48,90004,True,18.19,Wednesday,False,large
+LA002,Store_2,Snacks,2024-09-16,33.0,137.17,90002,False,4.16,Monday,False,medium
+LA003,Store_3,Beverages,2024-09-16,9.0,117.55,90001,False,13.06,Monday,False,medium
+LA008,Store_8,Produce,2024-09-24,39.0,445.93,90004,False,11.43,Tuesday,False,large
+LA006,Store_6,Snacks,2024-09-25,11.0,209.72,90002,False,19.07,Wednesday,False,large
+LA001,Store_1,Produce,2024-09-19,11.0,46.39,90005,True,4.22,Thursday,False,small
+LA001,Store_1,Beverages,2024-09-20,43.0,169.68,90001,True,3.95,Friday,False,large
+LA010,Store_10,Snacks,2024-09-20,27.0,457.7,90001,True,16.95,Friday,False,large
+LA008,Store_8,Snacks,2024-09-30,45.0,845.83,90001,False,18.8,Monday,False,large
+LA010,Store_10,Personal Care,2024-09-22,10.0,190.9,90002,True,19.09,Sunday,True,large
+LA006,Store_6,Personal Care,2024-09-29,40.0,273.18,90004,True,6.83,Sunday,True,large
+LA001,Store_1,Snacks,2024-09-28,7.0,66.42,90004,False,9.49,Saturday,True,medium
+LA006,Store_6,Beverages,2024-09-20,44.0,784.92,90004,True,17.84,Friday,False,large
+LA005,Store_5,Produce,2024-09-29,36.0,206.04,90002,False,5.72,Sunday,True,large
+LA004,Store_4,Household,2024-09-23,7.0,109.4,90004,True,15.63,Monday,False,medium
+LA008,Store_8,Produce,2024-09-22,33.0,145.97,90004,False,4.42,Sunday,True,medium
+LA010,Store_10,Produce,2024-09-16,50.0,929.05,90001,True,18.58,Monday,False,large
+LA007,Store_7,Produce,2024-09-22,39.0,697.65,90002,False,17.89,Sunday,True,large
+LA005,Store_5,Produce,2024-09-27,21.0,311.09,90003,True,14.81,Friday,False,large
+LA003,Store_3,Snacks,2024-09-23,33.0,388.24,90005,False,11.76,Monday,False,large
+LA010,Store_10,Personal Care,2024-09-22,44.0,680.31,90001,False,15.46,Sunday,True,large
+LA010,Store_10,Produce,2024-09-28,15.0,230.45,90003,False,15.36,Saturday,True,large
+LA001,Store_1,Personal Care,2024-09-30,25.0,237.45,90002,False,9.5,Monday,False,large
+LA010,Store_10,Personal Care,2024-09-28,15.0,276.1,unknown,False,18.41,Saturday,True,large
+LA006,Store_6,Snacks,2024-09-17,12.0,136.45,90002,True,11.37,Tuesday,False,medium
+LA004,Store_4,Household,2024-09-22,22.0,186.88,90005,True,8.49,Sunday,True,large
+LA007,Store_7,Beverages,2024-09-21,48.0,688.74,90001,True,14.35,Saturday,True,large
+LA003,Store_3,Household,2024-09-26,36.0,117.65,90004,True,3.27,Thursday,False,medium
+LA001,Store_1,Beverages,2024-09-23,23.0,430.21,90003,True,18.7,Monday,False,large
+LA005,Store_5,Snacks,2024-09-21,20.0,283.82,90002,False,14.19,Saturday,True,large
+LA010,Store_10,Beverages,2024-09-28,49.0,920.35,90003,False,18.78,Saturday,True,large
+LA002,Store_2,Snacks,2024-09-29,21.0,225.66,90005,False,10.75,Sunday,True,large
+LA005,Store_5,Household,2024-09-27,9.0,128.09,90003,False,14.23,Friday,False,medium
+LA008,Store_8,Beverages,2024-09-18,12.0,163.44,90005,True,13.62,Wednesday,False,large
+LA007,Store_7,Produce,2024-09-25,14.0,256.39,90002,False,18.31,Wednesday,False,large
+LA003,Store_3,Personal Care,2024-09-24,23.0,62.73,unknown,False,2.73,Tuesday,False,medium
+LA004,Store_4,Household,2024-09-17,25.0,261.35,90001,False,10.45,Tuesday,False,large
+LA009,Store_9,Household,2024-09-21,48.0,323.51,90001,True,6.74,Saturday,True,large
+LA001,Store_1,Snacks,2024-09-17,29.0,144.45,90002,True,4.98,Tuesday,False,medium
+LA006,Store_6,Beverages,2024-09-20,43.0,264.29,90002,False,6.15,Friday,False,large
+LA001,Store_1,Household,2024-09-29,6.0,35.39,90005,False,5.9,Sunday,True,small
+LA003,Store_3,Produce,2024-09-26,50.0,263.7,90005,False,5.27,Thursday,False,large
+LA007,Store_7,Snacks,2024-09-27,39.0,145.6,90005,False,3.73,Friday,False,medium
+LA009,Store_9,Beverages,2024-09-25,6.0,279.5,unknown,True,46.58,Wednesday,False,large
+LA007,Store_7,Personal Care,2024-09-17,24.0,425.92,90004,False,17.75,Tuesday,False,large
+LA006,Store_6,Produce,2024-09-19,7.0,67.61,90003,False,9.66,Thursday,False,medium
+LA010,Store_10,Produce,2024-09-29,27.0,179.29,90001,True,6.64,Sunday,True,large
+LA009,Store_9,Snacks,2024-09-16,24.0,289.53,unknown,False,12.06,Monday,False,large
+LA007,Store_7,Snacks,2024-09-24,43.0,178.17,90002,True,4.14,Tuesday,False,large
+LA003,Store_3,Produce,2024-09-16,28.0,100.42,90004,False,3.59,Monday,False,medium
+LA007,Store_7,Produce,2024-09-20,19.0,281.37,90004,True,14.81,Friday,False,large
+LA002,Store_2,Beverages,2024-09-30,36.0,256.35,90002,False,7.12,Monday,False,large
+LA008,Store_8,Personal Care,2024-09-30,37.0,77.1,90003,True,2.08,Monday,False,medium
+LA006,Store_6,Personal Care,2024-09-25,44.0,452.89,90002,True,10.29,Wednesday,False,large
+LA004,Store_4,Household,2024-09-26,27.0,518.35,90004,True,19.2,Thursday,False,large
+LA004,Store_4,Snacks,2024-09-16,16.0,243.8,90005,False,15.24,Monday,False,large
+LA007,Store_7,Personal Care,2024-09-28,26.0,60.13,90002,True,2.31,Saturday,True,medium
+LA009,Store_9,Household,2024-09-18,32.0,236.82,90003,True,7.4,Wednesday,False,large
+LA008,Store_8,Beverages,2024-09-27,29.0,446.68,90003,False,15.4,Friday,False,large
+LA003,Store_3,Snacks,2024-09-28,41.0,678.1,90001,False,16.54,Saturday,True,large
+LA006,Store_6,Produce,2024-09-24,34.0,658.9,90002,False,19.38,Tuesday,False,large
+LA005,Store_5,Beverages,2024-09-24,14.0,70.06,90001,True,5.0,Tuesday,False,medium
+LA001,Store_1,Personal Care,2024-09-25,34.0,536.18,90004,True,15.77,Wednesday,False,large
+LA006,Store_6,Household,2024-09-28,31.0,322.69,90005,False,10.41,Saturday,True,large
+LA003,Store_3,Produce,2024-09-19,30.0,400.77,90003,False,13.36,Thursday,False,large
+LA008,Store_8,Snacks,2024-09-18,6.0,59.72,90005,False,9.95,Wednesday,False,medium
+LA005,Store_5,Snacks,2024-09-20,1.0,11.87,90002,True,11.87,Friday,False,small
+LA007,Store_7,Personal Care,2024-09-27,15.0,101.0,90005,False,6.73,Friday,False,medium
+LA005,Store_5,Personal Care,2024-09-25,5.0,58.89,90001,True,11.78,Wednesday,False,medium
+LA002,Store_2,Snacks,2024-09-25,25.0,397.05,unknown,False,15.88,Wednesday,False,large
+LA002,Store_2,Snacks,2024-09-17,31.0,279.13,unknown,False,9.0,Tuesday,False,large
+LA009,Store_9,Beverages,2024-09-17,17.0,181.26,90002,False,10.66,Tuesday,False,large
+LA010,Store_10,Personal Care,2024-09-26,45.0,572.93,unknown,False,12.73,Thursday,False,large
+LA006,Store_6,Household,2024-09-18,29.0,440.72,90001,True,15.2,Wednesday,False,large
+LA008,Store_8,Personal Care,2024-09-23,36.0,262.98,unknown,False,7.31,Monday,False,large
+LA001,Store_1,Produce,2024-09-25,25.0,380.15,90003,True,15.21,Wednesday,False,large
+LA002,Store_2,Produce,2024-09-22,25.0,135.44,90004,False,5.42,Sunday,True,medium
+LA002,Store_2,Snacks,2024-09-16,7.0,18.01,90003,False,2.57,Monday,False,small
+LA008,Store_8,Beverages,2024-09-26,24.0,289.06,90005,False,12.04,Thursday,False,large
+LA005,Store_5,Beverages,2024-09-17,47.0,153.55,90001,False,3.27,Tuesday,False,large
+LA004,Store_4,Personal Care,2024-09-18,13.0,71.19,90005,True,5.48,Wednesday,False,medium
+LA007,Store_7,Beverages,2024-09-24,50.0,674.76,90001,False,13.5,Tuesday,False,large
+LA003,Store_3,Snacks,2024-09-26,36.0,332.21,90003,False,9.23,Thursday,False,large
+LA006,Store_6,Household,2024-09-18,24.0,226.13,90005,False,9.42,Wednesday,False,large
+LA001,Store_1,Household,2024-09-25,36.0,403.3,90003,True,11.2,Wednesday,False,large
+LA006,Store_6,Produce,2024-09-29,16.0,99.1,unknown,False,6.19,Sunday,True,medium
+LA002,Store_2,Household,2024-09-24,31.0,158.48,90005,True,5.11,Tuesday,False,large
+LA010,Store_10,Beverages,2024-09-30,41.0,655.73,90005,False,15.99,Monday,False,large
+LA010,Store_10,Beverages,2024-09-17,15.0,146.62,unknown,False,9.77,Tuesday,False,medium
+LA001,Store_1,Personal Care,2024-09-18,17.0,60.03,90005,False,3.53,Wednesday,False,medium
+LA004,Store_4,Personal Care,2024-09-16,42.0,515.93,unknown,True,12.28,Monday,False,large
+LA004,Store_4,Household,2024-09-22,10.0,156.39,90002,True,15.64,Sunday,True,large
+LA006,Store_6,Beverages,2024-09-28,2.0,14.53,90001,False,7.26,Saturday,True,small
+LA006,Store_6,Produce,2024-09-16,35.0,125.45,90001,True,3.58,Monday,False,medium
+LA010,Store_10,Snacks,2024-09-28,27.0,170.82,90004,True,6.33,Saturday,True,large
+LA010,Store_10,Household,2024-09-16,12.0,208.06,90004,False,17.34,Monday,False,large
+LA001,Store_1,Household,2024-09-30,27.0,162.16,90004,True,6.01,Monday,False,large
+LA010,Store_10,Household,2024-09-16,30.0,539.3,90004,False,17.98,Monday,False,large
+LA004,Store_4,Produce,2024-09-17,26.0,512.43,90001,True,19.71,Tuesday,False,large
+LA009,Store_9,Snacks,2024-09-29,30.0,508.14,90005,False,16.94,Sunday,True,large
+LA010,Store_10,Snacks,2024-09-28,11.0,194.03,unknown,True,17.64,Saturday,True,large
+LA008,Store_8,Beverages,2024-09-18,39.0,697.66,90004,True,17.89,Wednesday,False,large
+LA002,Store_2,Produce,2024-09-20,1.0,6.4,90001,False,6.4,Friday,False,small
+LA006,Store_6,Beverages,2024-09-30,4.0,15.84,unknown,True,3.96,Monday,False,small
+LA010,Store_10,Produce,2024-09-19,12.0,232.72,90003,False,19.39,Thursday,False,large
+LA007,Store_7,Beverages,2024-09-27,49.0,474.9,90003,True,9.69,Friday,False,large
+LA006,Store_6,Personal Care,2024-09-17,34.0,196.43,unknown,True,5.78,Tuesday,False,large
+LA003,Store_3,Snacks,2024-09-16,41.0,421.94,90001,False,10.29,Monday,False,large
+LA003,Store_3,Beverages,2024-09-20,49.0,369.9,90002,False,7.55,Friday,False,large
+LA008,Store_8,Beverages,2024-09-17,31.0,566.97,90005,True,18.29,Tuesday,False,large
+LA005,Store_5,Household,2024-09-25,10.0,158.51,90002,True,15.85,Wednesday,False,large
+LA004,Store_4,Beverages,2024-09-24,30.0,269.3,90005,True,8.98,Tuesday,False,large
+LA005,Store_5,Snacks,2024-09-19,11.0,36.11,unknown,False,3.28,Thursday,False,small
+LA008,Store_8,Household,2024-09-20,20.0,159.64,90004,True,7.98,Friday,False,large
+LA008,Store_8,Beverages,2024-09-16,5.0,52.78,90003,False,10.56,Monday,False,medium
+LA010,Store_10,Snacks,2024-09-19,33.0,127.14,90005,True,3.85,Thursday,False,medium
+LA004,Store_4,Produce,2024-09-27,28.0,451.29,90002,False,16.12,Friday,False,large
+LA002,Store_2,Produce,2024-09-24,32.0,129.85,90003,False,4.06,Tuesday,False,medium
+LA003,Store_3,Produce,2024-09-29,49.0,659.07,90003,True,13.45,Sunday,True,large
+LA007,Store_7,Produce,2024-09-20,29.0,160.14,90004,False,5.52,Friday,False,large
+LA006,Store_6,Personal Care,2024-09-23,26.0,230.57,90004,True,8.87,Monday,False,large
+LA006,Store_6,Personal Care,2024-09-27,10.0,71.92,unknown,True,7.19,Friday,False,medium
+LA008,Store_8,Personal Care,2024-09-22,9.0,31.72,90004,False,3.52,Sunday,True,small
+LA010,Store_10,Snacks,2024-09-16,46.0,507.43,90001,False,11.03,Monday,False,large
+LA010,Store_10,Household,2024-09-16,8.0,99.56,90003,True,12.44,Monday,False,medium
+LA008,Store_8,Beverages,2024-09-17,34.0,612.63,unknown,True,18.02,Tuesday,False,large
+LA002,Store_2,Produce,2024-09-22,38.0,289.75,90004,True,7.62,Sunday,True,large
+LA009,Store_9,Personal Care,2024-09-29,37.0,562.72,90002,False,15.21,Sunday,True,large
+LA001,Store_1,Produce,2024-09-23,48.0,358.72,90001,False,7.47,Monday,False,large
+LA005,Store_5,Produce,2024-09-26,2.0,14.33,90003,True,7.16,Thursday,False,small
+LA003,Store_3,Household,2024-09-20,18.0,313.95,unknown,True,17.44,Friday,False,large
+LA003,Store_3,Personal Care,2024-09-22,24.0,396.99,90005,False,16.54,Sunday,True,large
+LA004,Store_4,Personal Care,2024-09-22,47.0,633.39,90003,True,13.48,Sunday,True,large
+LA007,Store_7,Personal Care,2024-09-22,31.0,208.54,unknown,False,6.73,Sunday,True,large
+LA006,Store_6,Beverages,2024-09-17,7.0,129.63,90003,False,18.52,Tuesday,False,medium
+LA010,Store_10,Snacks,2024-09-25,34.0,279.5,90001,True,8.22,Wednesday,False,large
+LA001,Store_1,Beverages,2024-09-20,4.0,75.57,90001,True,18.89,Friday,False,medium
+LA002,Store_2,Produce,2024-09-28,9.0,78.91,90004,True,8.77,Saturday,True,medium
+LA002,Store_2,Personal Care,2024-09-21,18.0,285.27,90001,False,15.85,Saturday,True,large
+LA008,Store_8,Household,2024-09-23,7.0,18.39,90004,True,2.63,Monday,False,small
+LA003,Store_3,Beverages,2024-09-21,3.0,41.89,90001,False,13.96,Saturday,True,small
+LA009,Store_9,Personal Care,2024-09-23,26.0,305.32,90004,True,11.74,Monday,False,large
+LA002,Store_2,Produce,2024-09-19,23.0,184.04,90001,False,8.0,Thursday,False,large
+LA006,Store_6,Household,2024-09-18,6.0,102.85,90004,False,17.14,Wednesday,False,medium
+LA008,Store_8,Personal Care,2024-09-18,2.0,5.33,90002,True,2.66,Wednesday,False,small
+LA001,Store_1,Produce,2024-09-16,3.0,19.1,90001,True,6.37,Monday,False,small
+LA008,Store_8,Snacks,2024-09-20,38.0,119.75,90001,True,3.15,Friday,False,medium
+LA004,Store_4,Beverages,2024-09-25,38.0,194.64,unknown,True,5.12,Wednesday,False,large
+LA006,Store_6,Snacks,2024-09-18,29.0,185.18,90004,True,6.39,Wednesday,False,large
+LA007,Store_7,Personal Care,2024-09-23,45.0,192.78,90002,True,4.28,Monday,False,large
+LA010,Store_10,Beverages,2024-09-23,39.0,204.36,90003,False,5.24,Monday,False,large
+LA008,Store_8,Snacks,2024-09-16,11.0,154.69,90003,True,14.06,Monday,False,large
+LA006,Store_6,Personal Care,2024-09-20,3.0,11.64,90004,True,3.88,Friday,False,small
+LA010,Store_10,Beverages,2024-09-16,28.0,129.05,90002,False,4.61,Monday,False,medium
+LA003,Store_3,Household,2024-09-25,15.0,269.33,90002,True,17.96,Wednesday,False,large
+LA010,Store_10,Snacks,2024-09-18,6.0,56.46,90004,False,9.41,Wednesday,False,medium
+LA003,Store_3,Produce,2024-09-30,1.0,9.52,90001,True,9.52,Monday,False,small
+LA007,Store_7,Personal Care,2024-09-17,31.0,513.82,90001,True,16.57,Tuesday,False,large
+LA010,Store_10,Produce,2024-09-24,2.0,39.15,90003,False,19.58,Tuesday,False,small
+LA008,Store_8,Beverages,2024-09-23,41.0,134.18,unknown,False,3.27,Monday,False,medium
+LA010,Store_10,Produce,2024-09-18,14.0,226.5,90005,True,16.18,Wednesday,False,large
+LA006,Store_6,Beverages,2024-09-29,8.0,71.15,90005,False,8.89,Sunday,True,medium
+LA002,Store_2,Snacks,2024-09-18,9.0,176.96,90005,True,19.66,Wednesday,False,large
+LA004,Store_4,Snacks,2024-09-25,21.0,175.33,90003,False,8.35,Wednesday,False,large
+LA008,Store_8,Household,2024-09-20,44.0,836.73,90004,True,19.02,Friday,False,large
+LA006,Store_6,Household,2024-09-21,32.0,405.77,90003,False,12.68,Saturday,True,large
+LA003,Store_3,Household,2024-09-26,15.0,160.75,90004,False,10.72,Thursday,False,large
+LA003,Store_3,Snacks,2024-09-20,46.0,535.24,unknown,True,11.64,Friday,False,large
+LA009,Store_9,Beverages,2024-09-23,43.0,331.31,90005,False,7.7,Monday,False,large
+LA009,Store_9,Household,2024-09-17,42.0,617.32,90005,False,14.7,Tuesday,False,large
+LA003,Store_3,Produce,2024-09-26,47.0,861.22,90001,False,18.32,Thursday,False,large
+LA003,Store_3,Produce,2024-09-22,8.0,60.36,90003,False,7.54,Sunday,True,medium
+LA001,Store_1,Snacks,2024-09-20,38.0,436.08,unknown,False,11.48,Friday,False,large
+LA002,Store_2,Personal Care,2024-09-17,13.0,140.77,90004,True,10.83,Tuesday,False,medium
+LA008,Store_8,Personal Care,2024-09-24,29.0,208.67,90005,False,7.2,Tuesday,False,large
+LA008,Store_8,Snacks,2024-09-30,2.0,8.3,90003,False,4.15,Monday,False,small
+LA010,Store_10,Produce,2024-09-16,28.0,493.65,unknown,False,17.63,Monday,False,large
+LA010,Store_10,Produce,2024-09-23,35.0,518.9,90002,True,14.83,Monday,False,large
+LA001,Store_1,Household,2024-09-16,20.0,288.78,90003,True,14.44,Monday,False,large
+LA003,Store_3,Household,2024-09-23,2.0,30.8,90002,True,15.4,Monday,False,small
+LA001,Store_1,Beverages,2024-09-25,8.0,148.49,90001,True,18.56,Wednesday,False,medium
+LA001,Store_1,Beverages,2024-09-24,14.0,259.96,90001,False,18.57,Tuesday,False,large
+LA003,Store_3,Household,2024-09-27,25.0,240.84,90004,True,9.63,Friday,False,large
+LA002,Store_2,Snacks,2024-09-17,32.0,503.07,90001,False,15.72,Tuesday,False,large
+LA004,Store_4,Beverages,2024-09-28,31.0,586.01,90001,False,18.9,Saturday,True,large
+LA010,Store_10,Household,2024-09-19,49.0,794.33,90004,False,16.21,Thursday,False,large
+LA005,Store_5,Produce,2024-09-20,7.0,109.78,90004,False,15.68,Friday,False,medium
+LA003,Store_3,Personal Care,2024-09-16,9.0,68.62,unknown,False,7.62,Monday,False,medium
+LA009,Store_9,Produce,2024-09-22,37.0,386.9,90004,True,10.46,Sunday,True,large
+LA010,Store_10,Household,2024-09-22,50.0,980.0,90003,False,19.6,Sunday,True,large
+LA006,Store_6,Produce,2024-09-26,2.0,31.55,90004,False,15.78,Thursday,False,small
+LA002,Store_2,Snacks,2024-09-23,22.0,240.71,90002,False,10.94,Monday,False,large
+LA008,Store_8,Beverages,2024-09-21,35.0,204.87,90002,False,5.85,Saturday,True,large
+LA010,Store_10,Beverages,2024-09-24,46.0,790.99,90005,True,17.2,Tuesday,False,large
+LA009,Store_9,Snacks,2024-09-28,37.0,406.47,90004,False,10.99,Saturday,True,large
+LA010,Store_10,Beverages,2024-09-24,34.0,190.8,90003,False,5.61,Tuesday,False,large

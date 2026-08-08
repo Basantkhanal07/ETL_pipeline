@@ -1,0 +1,358 @@
+store_id,store_name,product_category,date,Unit sales,DOLLAR SALES,store_zip,promotion_flag
+LA002,Store_2,Household,9/1/24,16.0,96.28,90004,True
+LA001,Store_1,Beverages,9/1/24,14.0,86.63,90004,True
+LA004,Store_4,Produce,9/15/24,18.0,298.26,90003,True
+LA003,Store_3,Household,9/7/24,7.0,25.69,90001,True
+LA005,Store_5,Household,9/15/24,11.0,95.3,90001,True
+LA009,Store_9,Household,9/8/24,50.0,798.4,90001,True
+LA003,Store_3,Produce,9/8/24,35.0,235.53,90002,False
+LA002,Store_2,Personal Care,9/13/24,39.0,777.28,900XX,False
+LA004,Store_4,Snacks,9/2/24,37.0,704.67,90005,True
+LA003,Store_3,Personal Care,9/5/24,36.0,179.0,900XX,False
+LA002,Store_2,beverages,9/11/24,38.0,454.88,90001,True
+LA004,Store_4,Snacks,9/7/24,35.0,352.63,90001,False
+LA005,Store_5,Produce,9/14/24,43.0,642.05,900XX,True
+LA009,Store_9,Household,9/2/24,4.0,11.61,90005,False
+LA010,Store_10,Produce,9/2/24,6.0,57.28,90002,False
+LA005,Store_5,Snacks,9/13/24,43.0,585.62,90004,False
+LA006,Store_6,Snacks,9/10/24,29.0,493.21,90001,False
+LA009,Store_9,Beverages,9/10/24,9.0,60.84,90002,True
+LA006,Store_6,Household,9/7/24,33.0,356.19,90001,True
+LA002,Store_2,Snacks,9/3/24,35.0,92.7,90003,False
+LA008,Store_8,Household,9/12/24,15.0,90.19,90003,True
+LA010,Store_10,Beverages,9/9/24,7.0,89.17,90005,False
+LA002,Store_2,produce,9/13/24,13.0,85.61,900XX,False
+LA004,Store_4,Personal Care,9/12/24,5.0,95.4,90003,False
+LA009,Store_9,Personal Care,9/10/24,21.0,194.11,90004,False
+LA006,Store_6,Personal Care,9/15/24,29.0,410.68,900XX,False
+LA002,Store_2,Produce,9/10/24,43.0,575.9,90003,False
+LA009,Store_9,Produce,9/14/24,29.0,526.34,90003,False
+LA003,Store_3,Snacks,9/5/24,25.0,362.28,90004,True
+LA001,Store_1,Personal Care,9/7/24,25.0,457.18,90001,True
+LA006,Store_6,Personal Care,9/10/24,27.0,315.58,90004,True
+LA004,Store_4,Household,9/15/24,22.0,345.45,90001,False
+LA008,Store_8,Produce,9/1/24,4.0,79.99,90001,False
+LA001,Store_1,Snacks,9/8/24,2.0,26.37,90002,True
+LA004,Store_4,Household,9/4/24,44.0,563.53,90005,True
+LA008,Store_8,Personal Care,9/15/24,47.0,595.23,90004,False
+LA004,Store_4,Household,9/12/24,22.0,154.74,90002,False
+LA005,Store_5,Personal Care,9/8/24,45.0,287.08,900XX,False
+LA009,Store_9,Household,9/11/24,45.0,457.53,90001,False
+LA005,Store_5,Snacks,9/4/24,19.0,115.8,90001,True
+LA008,Store_8,Snacks,9/11/24,4.0,26.18,90005,False
+LA001,Store_1,Snacks,9/5/24,37.0,706.12,90005,True
+LA002,Store_2,snacks,9/6/24,12.0,143.23,90003,True
+LA001,Store_1,Household,9/8/24,46.0,326.09,900XX,False
+LA001,Store_1,Household,9/6/24,39.0,603.77,90004,False
+LA002,Store_2,Produce,9/8/24,38.0,726.34,90005,False
+LA007,Store_7,Household,9/11/24,43.0,166.96,90004,True
+LA009,Store_9,Personal Care,9/2/24,6.0,45.97,90001,False
+LA009,Store_9,Personal Care,9/15/24,4.0,21.51,90001,False
+LA004,Store_4,Produce,9/9/24,9.0,168.28,900XX,False
+LA008,Store_8,Snacks,9/4/24,32.0,601.21,90004,False
+LA004,Store_4,Produce,9/15/24,10.0,89.05,90004,True
+LA002,Store_2,Beverages,9/14/24,49.0,656.97,90001,True
+LA003,Store_3,Beverages,9/6/24,40.0,707.0,900XX,True
+LA005,Store_5,Household,9/15/24,43.0,93.27,90004,False
+LA002,Store_2,Personal Care,9/8/24,37.0,313.07,900XX,False
+LA007,Store_7,Beverages,9/9/24,37.0,650.13,90003,True
+LA001,Store_1,Household,9/2/24,32.0,130.89,900XX,True
+LA009,Store_9,Produce,9/14/24,48.0,723.78,90003,False
+LA006,Store_6,Personal Care,9/2/24,18.0,97.5,90002,True
+LA010,Store_10,Beverages,9/1/24,22.0,140.45,90005,True
+LA006,Store_6,Snacks,9/1/24,17.0,50.03,90003,False
+LA006,Store_6,Produce,9/13/24,34.0,248.48,900XX,False
+LA002,Store_2,Personal Care,9/11/24,21.0,293.41,90001,False
+LA002,Store_2,Personal Care,9/3/24,7.0,107.82,90005,False
+LA009,Store_9,Beverages,9/11/24,27.0,225.85,90005,False
+LA005,Store_5,Beverages,9/12/24,37.0,411.94,90005,True
+LA006,Store_6,Household,9/4/24,37.0,224.62,90005,False
+LA009,Store_9,Produce,9/1/24,43.0,728.0,90003,False
+LA006,Store_6,Snacks,9/1/24,10.0,121.94,90001,False
+LA009,Store_9,Personal Care,9/7/24,27.0,274.47,90005,True
+LA010,Store_10,Beverages,9/3/24,10.0,48.33,90004,True
+LA010,Store_10,Personal Care,9/15/24,18.0,105.84,90005,True
+LA005,Store_5,Household,9/10/24,8.0,17.11,90005,False
+LA010,Store_10,Produce,9/14/24,26.0,384.05,90002,False
+LA010,Store_10,Household,9/15/24,6.0,59.16,90004,True
+LA006,Store_6,Snacks,9/12/24,16.0,61.61,900XX,False
+LA002,Store_2,Personal Care,9/6/24,30.0,467.4,90005,False
+LA002,Store_2,Beverages,9/11/24,36.0,511.59,90005,False
+LA003,Store_3,Beverages,9/11/24,38.0,529.91,90002,False
+LA009,Store_9,Personal Care,9/3/24,33.0,280.93,90004,False
+LA004,Store_4,Snacks,9/8/24,10.0,33.89,90005,True
+LA008,Store_8,Household,9/15/24,50.0,443.69,90002,False
+LA005,Store_5,Personal Care,9/2/24,24.0,287.56,90001,True
+LA003,Store_3,Personal Care,9/9/24,33.0,153.53,90003,False
+LA001,Store_1,Beverages,9/14/24,26.0,286.94,90003,True
+LA008,Store_8,Produce,9/15/24,1.0,18.31,900XX,True
+LA008,Store_8,Beverages,9/3/24,32.0,407.72,90003,True
+LA007,Store_7,Produce,9/1/24,23.0,145.59,90003,False
+LA006,Store_6,Beverages,9/5/24,23.0,272.05,90004,True
+LA006,Store_6,Personal Care,9/6/24,45.0,492.99,90005,False
+LA001,Store_1,Beverages,9/5/24,16.0,256.21,90002,False
+LA008,Store_8,Household,9/12/24,29.0,456.33,90002,True
+LA002,Store_2,Snacks,9/1/24,32.0,362.22,90005,True
+LA009,Store_9,Snacks,9/12/24,50.0,596.17,90001,True
+LA002,Store_2,Produce,9/2/24,17.0,233.25,90005,False
+LA007,Store_7,Household,9/5/24,33.0,399.62,90002,False
+LA002,Store_2,Household,9/2/24,25.0,438.87,90003,False
+LA001,Store_1,Personal Care,9/3/24,33.0,337.6,90004,True
+LA006,Store_6,Personal Care,9/2/24,4.0,49.06,90004,True
+LA009,Store_9,Produce,9/9/24,44.0,571.95,90003,True
+LA009,Store_9,Snacks,9/12/24,13.0,166.98,90003,False
+LA010,Store_10,Beverages,9/8/24,38.0,404.63,900XX,False
+LA002,Store_2,Beverages,9/7/24,29.0,221.75,90005,True
+LA006,Store_6,Personal Care,9/6/24,35.0,285.67,900XX,False
+LA005,Store_5,Beverages,9/10/24,37.0,524.63,90002,False
+LA005,Store_5,Household,9/2/24,46.0,157.44,90005,False
+LA009,Store_9,Snacks,9/8/24,4.0,15.21,90001,False
+LA001,Store_1,Household,9/1/24,37.0,475.45,90004,False
+LA003,Store_3,Household,9/1/24,19.0,232.18,90004,True
+LA009,Store_9,Beverages,9/11/24,26.0,365.21,90001,True
+LA005,Store_5,Snacks,9/13/24,29.0,451.46,900XX,False
+LA003,Store_3,Produce,9/15/24,24.0,227.65,90002,False
+LA009,Store_9,Produce,9/7/24,35.0,164.41,900XX,False
+LA009,Store_9,Household,9/15/24,47.0,112.42,90001,False
+LA007,Store_7,Beverages,9/12/24,35.0,696.3,90002,True
+LA009,Store_9,Household,9/5/24,8.0,41.7,90001,False
+LA001,Store_1,Personal Care,9/10/24,44.0,657.52,90003,False
+LA003,Store_3,Snacks,9/9/24,47.0,741.6,90001,True
+LA004,Store_4,Beverages,9/7/24,7.0,88.84,900XX,False
+LA001,Store_1,Personal Care,9/13/24,15.0,175.74,900XX,True
+LA010,Store_10,Produce,9/11/24,39.0,620.32,90005,False
+LA004,Store_4,Household,9/14/24,18.0,55.75,90003,True
+LA009,Store_9,Personal Care,9/7/24,14.0,247.11,90002,False
+LA007,Store_7,Produce,9/15/24,42.0,355.6,900XX,False
+LA006,Store_6,Snacks,9/6/24,47.0,556.38,90001,True
+LA009,Store_9,Beverages,9/2/24,43.0,123.55,900XX,True
+LA003,Store_3,Snacks,9/1/24,33.0,336.87,90004,True
+LA008,Store_8,beverages,9/1/24,35.0,417.54,90003,True
+LA006,Store_6,Personal Care,9/9/24,6.0,52.29,90003,False
+LA001,Store_1,Produce,9/7/24,10.0,155.41,90005,False
+LA006,Store_6,Beverages,9/2/24,28.0,173.0,90004,True
+LA006,Store_6,Household,9/1/24,29.0,314.1,90005,False
+LA007,Store_7,Produce,9/3/24,19.0,310.93,900XX,True
+LA002,Store_2,Beverages,9/5/24,12.0,117.09,90005,False
+LA007,Store_7,Personal Care,9/9/24,20.0,214.32,90004,True
+LA006,Store_6,Household,9/15/24,28.0,467.0,90004,True
+LA006,Store_6,Personal Care,9/6/24,21.0,152.17,90003,False
+LA007,Store_7,Beverages,9/12/24,37.0,207.07,90004,True
+LA004,Store_4,Household,9/15/24,45.0,146.02,90003,False
+LA010,Store_10,Produce,9/2/24,42.0,596.17,90001,False
+LA001,Store_1,Household,9/4/24,15.0,167.88,90005,True
+LA009,Store_9,Household,9/5/24,2.0,21.38,900XX,False
+LA003,Store_3,Household,9/12/24,22.0,224.31,900XX,True
+LA008,Store_8,Beverages,9/11/24,20.0,56.09,90002,True
+LA004,Store_4,Beverages,9/9/24,37.0,141.77,900XX,True
+LA008,Store_8,Beverages,9/6/24,37.0,94.55,90002,True
+LA001,Store_1,Household,9/15/24,23.0,402.95,90002,True
+LA003,Store_3,Snacks,9/8/24,46.0,358.7,90005,True
+LA003,Store_3,Personal Care,9/2/24,41.0,307.47,90002,True
+LA008,Store_8,snacks,9/3/24,38.0,230.71,90004,False
+LA007,Store_7,Personal Care,9/12/24,21.0,341.03,90005,True
+LA010,Store_10,Beverages,9/10/24,43.0,763.89,90003,True
+LA005,Store_5,Produce,9/3/24,14.0,273.53,900XX,True
+LA002,Store_2,Personal Care,9/10/24,47.0,900.6,90004,True
+LA008,Store_8,Produce,9/12/24,34.0,547.19,90003,False
+LA006,Store_6,Snacks,9/13/24,12.0,225.13,90004,True
+LA004,Store_4,Snacks,9/11/24,27.0,499.11,90005,False
+LA001,Store_1,Snacks,9/6/24,34.0,668.63,90003,False
+LA006,Store_6,Produce,9/3/24,30.0,64.3,90002,True
+LA008,Store_8,Produce,9/12/24,32.0,638.73,90002,True
+LA006,Store_6,Household,9/15/24,15.0,50.17,90001,True
+LA003,Store_3,Personal Care,9/15/24,21.0,195.66,90003,False
+LA002,Store_2,Snacks,9/3/24,44.0,328.94,900XX,True
+LA004,Store_4,Personal Care,9/12/24,33.0,95.08,90004,False
+LA003,Store_3,Personal Care,9/7/24,24.0,344.48,90001,True
+LA002,Store_2,Personal Care,9/7/24,9.0,32.9,90005,False
+LA001,Store_1,Household,9/3/24,25.0,111.76,90005,True
+LA001,Store_1,Household,9/13/24,31.0,365.84,90003,False
+LA003,Store_3,Household,9/1/24,39.0,231.75,90005,False
+LA004,Store_4,Beverages,9/6/24,16.0,221.18,90002,False
+LA001,Store_1,Produce,9/11/24,13.0,214.71,90003,False
+LA001,Store_1,Snacks,9/1/24,38.0,558.01,90001,True
+LA005,Store_5,Snacks,9/5/24,47.0,95.52,90002,False
+LA010,Store_10,Produce,9/11/24,15.0,202.7,90002,True
+LA006,Store_6,Snacks,9/11/24,41.0,735.37,90003,True
+LA008,Store_8,Household,9/1/24,14.0,90.88,90001,True
+LA007,Store_7,Personal Care,9/15/24,11.0,197.14,90004,False
+LA006,Store_6,Personal Care,9/6/24,11.0,166.93,900XX,True
+LA001,Store_1,Snacks,9/14/24,39.0,702.61,90004,True
+LA003,Store_3,Household,9/2/24,1.0,9.7,90001,False
+LA001,Store_1,Snacks,9/7/24,41.0,297.36,90004,True
+LA001,Store_1,Personal Care,9/9/24,30.0,202.24,90001,False
+LA009,Store_9,Beverages,9/15/24,45.0,594.68,90005,False
+LA007,Store_7,Personal Care,9/2/24,22.0,317.44,90001,True
+LA003,Store_3,Personal Care,9/10/24,50.0,843.24,90004,False
+LA009,Store_9,Snacks,9/13/24,50.0,866.17,90001,True
+LA004,Store_4,Personal Care,9/2/24,4.0,74.1,900XX,True
+LA006,Store_6,Household,9/6/24,48.0,813.87,90005,True
+LA005,Store_5,Personal Care,9/14/24,23.0,236.03,90004,True
+LA010,Store_10,Beverages,9/4/24,33.0,659.66,900XX,False
+LA005,Store_5,Snacks,9/7/24,34.0,536.47,900XX,True
+LA006,Store_6,Household,9/12/24,38.0,277.13,90005,True
+LA003,Store_3,Household,9/7/24,27.0,533.78,90001,False
+LA008,Store_8,Snacks,9/11/24,21.0,281.84,90005,True
+LA009,Store_9,household,9/7/24,,18.06,90002,True
+LA006,Store_6,Snacks,9/10/24,7.0,62.33,90003,False
+LA009,Store_9,Personal Care,9/9/24,45.0,214.03,90003,True
+LA008,Store_8,Produce,9/7/24,13.0,208.04,90005,True
+LA008,Store_8,Household,9/10/24,30.0,87.04,900XX,True
+LA006,Store_6,beverages,9/14/24,7.0,121.26,90003,True
+LA008,Store_8,Personal Care,9/9/24,45.0,779.04,900XX,False
+LA001,Store_1,Household,9/3/24,42.0,321.56,90005,True
+LA010,Store_10,Personal Care,9/4/24,43.0,648.43,90005,False
+LA010,Store_10,Beverages,9/2/24,42.0,790.38,90004,False
+LA006,Store_6,Household,9/8/24,18.0,52.31,90001,True
+LA008,Store_8,Produce,9/15/24,29.0,103.95,900XX,False
+LA001,Store_1,Personal Care,9/4/24,27.0,71.41,900XX,True
+LA008,Store_8,Produce,9/11/24,50.0,657.78,90001,False
+LA004,Store_4,Household,9/1/24,23.0,389.57,90002,False
+LA008,Store_8,Personal Care,9/5/24,7.0,46.04,90004,True
+LA005,Store_5,Household,9/13/24,19.0,192.87,90005,True
+LA001,Store_1,Snacks,9/13/24,4.0,56.26,900XX,True
+LA005,Store_5,Beverages,9/5/24,45.0,725.33,90001,True
+LA004,Store_4,Personal Care,9/10/24,12.0,236.43,90004,True
+LA001,Store_1,Household,9/14/24,36.0,243.23,900XX,True
+LA003,Store_3,Snacks,9/2/24,21.0,267.62,900XX,False
+LA001,Store_1,Household,9/4/24,29.0,183.46,90001,True
+LA007,Store_7,Produce,9/9/24,47.0,333.27,90003,False
+LA004,Store_4,Produce,9/11/24,6.0,114.41,900XX,True
+LA002,Store_2,Snacks,9/7/24,44.0,423.97,900XX,True
+LA007,Store_7,Beverages,9/11/24,25.0,352.98,90005,True
+LA008,Store_8,Personal Care,9/13/24,43.0,109.85,90005,True
+LA002,Store_2,Beverages,9/2/24,37.0,471.37,90003,True
+LA004,Store_4,Produce,9/14/24,10.0,48.97,900XX,True
+LA002,Store_2,Produce,9/7/24,32.0,612.09,90005,False
+LA010,Store_10,Household,9/12/24,28.0,140.99,90004,False
+LA004,Store_4,Beverages,9/9/24,47.0,157.79,90005,True
+LA006,Store_6,Snacks,9/13/24,50.0,630.64,90003,False
+LA009,Store_9,Snacks,9/1/24,40.0,572.6,900XX,True
+LA009,Store_9,Personal Care,9/9/24,15.0,169.42,90005,False
+LA010,Store_10,Personal Care,9/6/24,2.0,12.77,90001,True
+LA010,Store_10,Beverages,9/5/24,11.0,73.14,900XX,True
+LA010,Store_10,snacks,9/3/24,25.0,223.46,900XX,True
+LA009,Store_9,Personal Care,9/1/24,42.0,239.3,90005,False
+LA005,Store_5,Produce,9/9/24,28.0,340.59,90005,False
+LA009,Store_9,Household,9/13/24,36.0,,90001,True
+LA001,Store_1,Produce,9/7/24,19.0,104.6,900XX,True
+LA001,Store_1,Beverages,9/6/24,18.0,288.61,90001,False
+LA006,Store_6,Produce,9/4/24,17.0,302.09,90002,False
+LA006,Store_6,Produce,9/3/24,12.0,126.94,900XX,False
+LA006,Store_6,Beverages,9/5/24,8.0,148.51,90001,False
+LA008,Store_8,Produce,9/12/24,21.0,228.1,90003,False
+LA007,Store_7,Produce,9/8/24,9.0,26.77,90004,False
+LA003,Store_3,Beverages,9/15/24,45.0,509.75,90005,False
+LA002,Store_2,Household,9/11/24,40.0,700.53,90005,True
+LA006,Store_6,Snacks,9/12/24,32.0,308.19,90003,False
+LA008,Store_8,Produce,9/6/24,9.0,176.64,90005,True
+LA006,Store_6,Personal Care,9/1/24,8.0,66.56,90003,True
+LA006,Store_6,Produce,9/11/24,32.0,510.25,900XX,False
+LA002,Store_2,Household,9/6/24,15.0,114.64,90004,False
+LA005,Store_5,Snacks,9/8/24,48.0,341.53,900XX,True
+LA003,Store_3,Household,9/12/24,31.0,,90004,False
+LA005,Store_5,Produce,9/10/24,18.0,169.78,90005,True
+LA008,Store_8,Produce,9/9/24,32.0,172.17,90001,True
+LA005,Store_5,Snacks,9/9/24,46.0,455.01,90003,True
+LA007,Store_7,Personal Care,9/10/24,24.0,248.31,90001,True
+LA002,Store_2,Personal Care,9/8/24,21.0,47.7,90001,False
+LA010,Store_10,Beverages,9/11/24,4.0,33.6,90002,True
+LA008,Store_8,Produce,9/9/24,36.0,175.9,90004,True
+LA006,Store_6,Beverages,9/4/24,34.0,471.24,90002,True
+LA001,Store_1,Snacks,9/12/24,39.0,581.93,90001,True
+LA004,Store_4,Produce,9/13/24,48.0,315.53,90003,False
+LA010,Store_10,produce,9/1/24,9.0,178.93,90003,False
+LA007,Store_7,Beverages,9/3/24,50.0,400.95,90002,False
+LA003,Store_3,Produce,9/11/24,45.0,268.85,90005,True
+LA010,Store_10,Beverages,9/3/24,43.0,406.11,90001,False
+LA005,Store_5,Household,9/6/24,40.0,671.54,90002,False
+LA005,Store_5,Household,9/1/24,45.0,741.47,90005,False
+LA004,Store_4,Produce,9/7/24,34.0,527.22,900XX,False
+LA001,Store_1,Produce,9/13/24,43.0,493.74,90005,False
+LA005,Store_5,Personal Care,9/2/24,42.0,798.55,900XX,True
+LA001,Store_1,Produce,9/8/24,20.0,160.09,90003,False
+LA005,Store_5,Produce,9/8/24,18.0,299.05,90001,False
+LA009,Store_9,Snacks,9/9/24,10.0,81.52,900XX,False
+LA009,Store_9,Snacks,9/5/24,42.0,188.76,90005,True
+LA003,Store_3,Snacks,9/14/24,42.0,789.37,90001,True
+LA003,Store_3,Snacks,9/11/24,47.0,118.94,90004,False
+LA005,Store_5,Snacks,9/5/24,7.0,30.57,90005,True
+LA010,Store_10,Produce,9/8/24,15.0,92.35,90005,True
+LA006,Store_6,Produce,9/13/24,48.0,590.15,90001,True
+LA004,Store_4,Personal Care,9/10/24,26.0,465.9,90001,False
+LA009,Store_9,Personal Care,9/5/24,27.0,211.2,90002,True
+LA008,Store_8,Household,9/3/24,21.0,303.47,90004,True
+LA006,Store_6,Produce,9/3/24,46.0,410.02,90003,True
+LA008,Store_8,snacks,9/10/24,8.0,145.39,90004,True
+LA003,Store_3,Beverages,9/5/24,42.0,347.86,90003,True
+LA009,Store_9,Personal Care,9/3/24,47.0,676.6,90005,False
+LA010,Store_10,Snacks,9/12/24,40.0,485.1,900XX,False
+LA005,Store_5,Beverages,9/7/24,8.0,19.45,90004,True
+LA007,Store_7,household,9/2/24,23.0,278.01,90001,True
+LA005,Store_5,Produce,9/10/24,36.0,281.9,90005,True
+LA010,Store_10,Snacks,9/1/24,13.0,103.34,90001,False
+LA009,Store_9,Produce,9/10/24,47.0,667.76,90003,True
+LA002,Store_2,Household,9/5/24,2.0,16.21,90004,False
+LA006,Store_6,Household,9/15/24,14.0,160.33,90001,True
+LA002,Store_2,Personal Care,9/11/24,3.0,11.57,90002,False
+LA006,Store_6,Snacks,9/7/24,19.0,132.61,90002,False
+LA005,Store_5,Beverages,9/4/24,40.0,482.93,90002,True
+LA001,Store_1,Personal Care,9/4/24,4.0,14.2,900XX,False
+LA010,Store_10,Beverages,9/5/24,45.0,469.3,90004,False
+LA004,Store_4,Snacks,9/8/24,40.0,265.8,90003,False
+LA008,Store_8,Produce,9/13/24,27.0,169.95,90003,True
+LA007,Store_7,Produce,9/3/24,7.0,100.37,90002,False
+LA006,Store_6,Produce,9/3/24,1.0,13.01,90005,False
+LA001,Store_1,Produce,9/1/24,23.0,91.42,90004,False
+LA010,Store_10,Personal Care,9/6/24,33.0,317.93,90001,False
+LA001,Store_1,Beverages,9/11/24,10.0,127.2,90004,True
+LA002,Store_2,Snacks,9/2/24,30.0,275.32,90002,False
+LA006,Store_6,Household,9/9/24,7.0,46.17,900XX,False
+LA001,Store_1,Beverages,9/14/24,34.0,131.59,90001,False
+LA007,Store_7,Household,9/13/24,4.0,26.59,90002,False
+LA010,Store_10,Snacks,9/13/24,42.0,456.0,90001,True
+LA004,Store_4,Personal Care,9/10/24,7.0,93.46,90002,False
+LA003,Store_3,Snacks,9/2/24,2.0,29.91,90003,True
+LA009,Store_9,Produce,9/15/24,10.0,153.39,900XX,True
+LA004,Store_4,Household,9/14/24,48.0,682.14,90003,False
+LA003,Store_3,Personal Care,9/1/24,6.0,12.69,90003,True
+LA006,Store_6,Beverages,9/14/24,36.0,224.69,90005,True
+LA009,Store_9,Personal Care,9/8/24,50.0,663.82,900XX,True
+LA009,Store_9,Beverages,9/4/24,16.0,239.76,90002,False
+LA002,Store_2,Snacks,9/11/24,7.0,43.88,90004,False
+LA006,Store_6,Snacks,9/9/24,22.0,94.38,90004,True
+LA005,Store_5,Personal Care,9/1/24,48.0,849.93,90005,True
+LA007,Store_7,snacks,9/7/24,23.0,168.46,90004,True
+LA006,Store_6,Personal Care,9/15/24,33.0,378.85,90003,True
+LA003,Store_3,Beverages,9/10/24,7.0,34.76,90005,True
+LA001,Store_1,Personal Care,9/10/24,44.0,516.82,90001,True
+LA005,Store_5,Beverages,9/7/24,2.0,35.38,90005,True
+LA003,Store_3,Snacks,9/6/24,8.0,21.93,90002,False
+LA005,Store_5,Beverages,9/4/24,26.0,487.74,900XX,True
+LA006,Store_6,Household,9/13/24,1.0,7.12,90002,False
+LA002,Store_2,Snacks,9/5/24,20.0,210.86,90001,False
+LA001,Store_1,Household,9/14/24,27.0,139.0,90002,False
+LA007,Store_7,Produce,9/10/24,32.0,88.33,90004,False
+LA004,Store_4,Beverages,9/1/24,10.0,67.28,90002,False
+LA010,Store_10,Household,9/1/24,11.0,137.17,90002,True
+LA001,Store_1,Household,9/9/24,27.0,363.22,90001,False
+LA009,Store_9,Snacks,9/7/24,49.0,181.36,900XX,True
+LA005,Store_5,Household,9/9/24,7.0,81.34,90003,False
+LA008,Store_8,Household,9/14/24,11.0,42.28,90005,True
+LA005,Store_5,Snacks,9/5/24,9.0,176.94,90004,False
+LA007,Store_7,Snacks,9/2/24,7.0,18.13,90003,True
+LA002,Store_2,Household,9/5/24,38.0,313.92,90005,True
+LA010,Store_10,Beverages,9/3/24,38.0,598.06,90005,True
+LA007,Store_7,Personal Care,9/10/24,39.0,594.79,90004,False
+LA007,Store_7,Produce,9/15/24,43.0,609.63,90001,True
+LA003,Store_3,Household,9/3/24,13.0,105.24,90003,False
+LA009,Store_9,Snacks,9/9/24,50.0,509.17,90002,True
+LA001,Store_1,Beverages,9/4/24,5.0,54.83,90002,True
+LA009,Store_9,Produce,9/9/24,22.0,364.55,90001,True
+LA007,Store_7,Household,9/15/24,25.0,249.15,90003,True
+LA006,Store_6,Snacks,9/2/24,16.0,99.57,90003,False
+LA002,Store_2,Snacks,9/11/24,2.0,23.38,90004,True
+LA005,Store_5,Personal Care,9/1/24,38.0,91.21,90004,False
+LA008,Store_8,Snacks,9/14/24,23.0,375.4,90003,False
+LA004,Store_4,Personal Care,9/14/24,17.0,225.24,900XX,False

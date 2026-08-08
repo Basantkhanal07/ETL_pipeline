@@ -1,0 +1,8 @@
+pandas
+numpy   
+sqlalchemy          # used for connecting to PostgreSQL
+psycopg2-binary     # PostgreSQL driver for Python
+openpyxl            # needed to read Excel files
+matplotlib          # for creating charts
+python-dotenv       # allows us to read environment variables from a ".env" file
+

@@ -1,0 +1,38 @@
+LA RETAIL SALES - SUMMARY REPORT (September 2024)
+==================================================
+Total transactions: 750
+Total revenue: $209,622.57
+Total units sold: 19191
+Average sale amount: $279.50
+
+Revenue by product category:
+product_category
+Snacks           44419.72
+Personal Care    42895.63
+Beverages        41698.39
+Produce          40360.95
+Household        40247.88
+
+Revenue by store:
+store_name
+Store_10    26950.90
+Store_6     23636.70
+Store_9     22972.21
+Store_3     21290.63
+Store_1     21220.65
+Store_8     20765.75
+Store_2     20418.73
+Store_5     19757.50
+Store_4     16749.46
+Store_7     15860.04
+
+Transactions with a promotion active:
+promotion_flag
+False    384
+True     366
+
+Sale size breakdown:
+sale_size
+large     489
+medium    180
+small      81
