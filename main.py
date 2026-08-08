@@ -12,16 +12,16 @@ from generate_report import generate_report_all
 
 
 def run_pipeline():
-    print("\n===== STEP 1: EXTRACT =====")
+    print("\n STEP 1: EXTRACT ")
     raw_data = extract_all()
 
-    print("\n===== STEP 2: TRANSFORM =====")
+    print("\n STEP 2: TRANSFORM ")
     clean_data = transform_all(raw_data)
 
-    print("\n===== STEP 3: LOAD =====")
+    print("\n STEP 3: LOAD ")
     load_all(clean_data)
 
-    print("\n===== STEP 4: REPORT =====")
+    print("\n STEP 4: REPORT ")
     generate_report_all()
 
     print("\nPipeline finished successfully!")
