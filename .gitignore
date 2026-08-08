@@ -1,14 +1,11 @@
-
-
 # Python junk files
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Local virtual environment folder
+# Virtual environments
 venv/
 env/
 
-
+# Environment variables
 .env
-
